@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: color(gamboge);
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 10px rgba(black, 0.5);
+  margin: 0 auto 2em;
+  max-width: 800px;
+  > * {
+    padding: 2em;
+  }
+}
+
+.site-header {}
+.site-content {}
+.site-footer {
+  background-color: black;
+  border-radius: 0 0 5px 5px;
+  color: white;
+  padding: 1em;
+  a {
+    color: white
+  }
+}
+
+a { color: black; }

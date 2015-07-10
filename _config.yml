@@ -9,7 +9,25 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wheelhousefoot.com" # the base hostname & protocol for your site
 facebook_username: wheelhousefood
 twitter_username: wheelhousefood
+google_username: 102749925529009691414
 exclude: [node_modules, package.json, script, webpack.config.js]
 
 # Build settings
 markdown: kramdown
+
+# prose.io configuration
+prose:
+  media: media
+  ignore:
+    - .gitignore
+    - _config.yml
+    - _includes
+    - _js
+    - _layouts
+    - _sass
+    - about.md
+    - feed.xml
+    - js
+    - package.json
+    - script
+    - webpack.config.js

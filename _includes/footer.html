@@ -8,4 +8,16 @@
     </a>
   {% endif %}
 
+  {% if site.facebook_username %}
+    facebook: <a href="https://facebook.com/{{ site.facebook_username }}">
+      <span class="username">{{ site.facebook_username }}</span>
+    </a>
+  {% endif %}
+
+  {% if site.google_username %}
+    google: <a href="https://plus.google.com/{{ site.google_username }}">
+      <span class="username">{{ site.google_username }}</span>
+    </a>
+  {% endif %}
+
 </footer>

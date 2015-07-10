@@ -27,6 +27,7 @@ prose:
     - _sass
     - about.md
     - feed.xml
+    - index.html
     - js
     - package.json
     - script

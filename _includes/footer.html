@@ -1,23 +1,25 @@
 <footer class="site-footer">
 
-  &copy; {{ site.title }}
+  <span class="site-copyright">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
 
   {% if site.twitter_username %}
     <a href="https://twitter.com/{{ site.twitter_username }}">
-      twitter
+      Twitter
     </a>
   {% endif %}
 
   {% if site.facebook_username %}
     <a href="https://facebook.com/{{ site.facebook_username }}">
-      facebook
+      Facebook
     </a>
   {% endif %}
 
   {% if site.google_username %}
     <a href="https://plus.google.com/{{ site.google_username }}">
-      google
+      Google
     </a>
   {% endif %}
+
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
 
 </footer>

@@ -8,9 +8,9 @@ The Wheelhouse serves delicious fusion dishes. We use high quality ingredients, 
 
 We are located at [1666 E St Louis St, Springfield, MO 65802][map].
 
-Our hours are:
-
-Monday-Friday 11:00 AM - 2:00 PM and Wednesday through Friday from 4:30 PM to 7:00 PM.
+Our hours are:<br/>
+Monday - Friday 11:00 AM - 2:00 PM<br/>
++ Wednesday - Friday 4:30 PM - 7:00 PM
 
 Call 417.773.7717 to inquire about catering or to place an order.
 

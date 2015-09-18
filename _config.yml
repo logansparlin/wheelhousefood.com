@@ -12,6 +12,18 @@ twitter_username: wheelhousefood
 google_username: 102749925529009691414
 exclude: [node_modules, package.json, script, webpack.config.js]
 
+collections:
+  specials:
+    output: true
+
+defaults:
+  - 
+    scope:
+      type: specials
+    values:
+      layout: special
+      permalink: /specials/:name/
+
 # Build settings
 markdown: kramdown
 

@@ -13,4 +13,4 @@
   {% endif %}
   <a class="page-link" href="{{ site.baseurl }}">Order Online</a>
 </nav>
-{{ 'foo' |site.baseurl }}
+{{ 'foo' | prepend: site.baseurl }}

@@ -19,10 +19,11 @@ collections:
 defaults:
   -
     scope:
+      path: ""
       type: specials
     values:
       layout: special
-      permalink: /specials/:name/
+      #permalink: "/specials/:name/"
 
 # Build settings
 markdown: kramdown

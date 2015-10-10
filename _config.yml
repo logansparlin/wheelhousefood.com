@@ -17,7 +17,7 @@ collections:
     output: true
 
 defaults:
-  - 
+  -
     scope:
       type: specials
     values:

@@ -1,4 +1,5 @@
 var path = require('path')
+var webpack = require('webpack')
 
 module.exports = {
   entry: './_js/entry.js',
@@ -14,6 +15,9 @@ module.exports = {
       { exclude: /node_modules/, loaders: ['babel-loader'], test: /(\.js$)|(\.jsx$)/ }
     ]
   },
+  plugins: [
+    new webpack.BannerPlugin("---\n---\n", { raw: true })
+  ],
   resolve: {
     extensions: ['', '.coffee', '.js']
   }

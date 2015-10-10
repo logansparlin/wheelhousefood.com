@@ -1,5 +1,5 @@
 <header class="site-header">
-  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <a class="site-title" href="{{ '/' | site.baseurl }}/">{{ site.title }}</a>
 </header>
 
 <nav class="site-nav">
@@ -8,6 +8,8 @@
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
     {% endif %}
   {% endfor %}
-  <a class="page-link" href="{{ site.specials[0].url }}">Specials</a>
-  <a class="page-link" href="">Order Online</a>
+  {% if site.specials.size %}
+  <a class="page-link" href="{{ site.specials[0].url | prepend: site.baseurl }}">Specials</a>
+  {% endif %}
+  <a class="page-link" href="{{ '/' | site.baseurl }}">Order Online</a>
 </nav>

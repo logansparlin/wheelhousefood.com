@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-jekyll serve --drafts --port 4002 --trace --watch
+jekyll serve --drafts --port 4002 --trace --watch --baseurl ''

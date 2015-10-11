@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /
 ---
 
 The Wheelhouse serves delicious fusion dishes. We use high quality ingredients, focusing on Thai and Mexican food and exploring other culinary traditions.

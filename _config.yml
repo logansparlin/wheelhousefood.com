@@ -28,6 +28,12 @@ defaults:
 # prose.io configuration
 prose:
   media: media
+  metadata:
+    _specials:
+      name: 'title'
+      field:
+        element: 'text'
+        label: 'title'
   ignore:
     - .gitignore
     - Gemfile

@@ -55,7 +55,7 @@ sections:
 
   - name: Main Dishes
     description: |
-      Choose Spiciness: &nbsp;|&nbsp; Guacamole: &nbsp;|&nbsp; Sour Cream:
+      *Spiciness:* &nbsp;|&nbsp; *Guacamole:* &nbsp;|&nbsp; *Sour Cream:*
       1–5 Stars &nbsp;|&nbsp; +$1 &nbsp;|&nbsp; free
     items:
       - name: Wheelhouse Drunken Noodles
@@ -123,7 +123,7 @@ sections:
 
   - name: Burritos
     description: |
-      Choose Spiciness: &nbsp;|&nbsp; Guacamole: &nbsp;|&nbsp; Sour Cream:
+      *Spiciness:* &nbsp;|&nbsp; *Guacamole:* &nbsp;|&nbsp; *Sour Cream:*
       1–5 Stars &nbsp;|&nbsp; +$1 &nbsp;|&nbsp; free
 
       Our burritos come with homemade Spanish rice and our version of refried
@@ -209,22 +209,22 @@ sections:
     description:
     items:
       - name: Guacamole
-        price: $1
+        price: $1.00
 
       - name: Peanut Sauce
         price: $0.75
 
       - name: Mojo Sauce
-        price: 0.75
+        price: $0.75
 
       - name: Red Salsa
-        price: $0.5
+        price: $0.50
 
       - name: Teriyaki Sauce
-        price: $0.5
+        price: $0.50
 
       - name: Cabbage Salsa
-        price: $0.5
+        price: $0.50
 
 
 
@@ -232,7 +232,7 @@ sections:
     description:
     items:
       - name: Bottled Water
-        price: $1
+        price: $1.00
 
       - name: Canned Sodas
         price: $1.25

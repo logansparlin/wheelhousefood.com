@@ -19,7 +19,9 @@ permalink: /menu/
           {{ item.name }}
           <span class="menu-item__price">{{ item.price }}</span>
         </span>
+        {% if item.description %}
         <p class="menu-item__description">{{ item.description }}</p>
+        {% endif %}
         {% if item.variants %}
           <span class="menu-item__variants">
             {% for variant in item.variants %}

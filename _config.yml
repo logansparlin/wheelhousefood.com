@@ -30,10 +30,10 @@ prose:
   media: media
   metadata:
     _specials:
-      name: 'title'
-      field:
-        element: 'text'
-        label: 'title'
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
   ignore:
     - .gitignore
     - Gemfile

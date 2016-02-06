@@ -34,6 +34,11 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "published"
+
   ignore:
     - .gitignore
     - Gemfile

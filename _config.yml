@@ -39,6 +39,9 @@ prose:
           element: "checkbox"
           label: "published"
           value: true
+      - name: "date"
+          element: "hidden"
+          value: CURRENT_DATETIME
 
   ignore:
     - .gitignore

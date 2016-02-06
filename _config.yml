@@ -40,6 +40,7 @@ prose:
           label: "published"
           value: true
       - name: "date"
+        field:
           element: "hidden"
           value: CURRENT_DATETIME
 

@@ -16,7 +16,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.BannerPlugin("---\n---\n", { raw: true })
+    new webpack.BannerPlugin("---\n---\n\n", { raw: true })
   ],
   resolve: {
     extensions: ['', '.coffee', '.js']

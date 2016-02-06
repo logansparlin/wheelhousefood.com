@@ -4,9 +4,7 @@ title: Menu
 permalink: /menu/
 ---
 
-<p>{{ site.data.menu.intro }}</p>
-
-Choose Spiciness: 1-5 Stars &nbsp;|&nbsp; Guacamole: +$1.5 &nbsp;|&nbsp; Sour Cream: free &nbsp;|&nbsp; All prices include tax
+{{ site.data.menu.intro }}
 
 <div class="menu">
   {% for section in site.data.menu.sections %}

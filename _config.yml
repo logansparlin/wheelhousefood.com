@@ -10,7 +10,7 @@ url: "http://wheelhousefood.com" # the base hostname & protocol for your site
 facebook_username: wheelhousefood
 twitter_username: wheelhousefood
 google_username: 102749925529009691414
-exclude: [node_modules, package.json, script, webpack.config.js]
+exclude: [bin, node_modules, package.json, webpack.config.js]
 
 collections:
   specials:
@@ -25,9 +25,6 @@ defaults:
     values:
       layout: special
 
-# Build settings
-markdown: kramdown
-
 # prose.io configuration
 prose:
   media: media
@@ -39,9 +36,9 @@ prose:
     - _layouts
     - _sass
     - about.md
+    - bin
     - feed.xml
     - index.html
     - js
     - package.json
-    - script
     - webpack.config.js

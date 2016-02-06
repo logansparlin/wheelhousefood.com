@@ -82,6 +82,36 @@ table {
       margin: 0;
       padding: 0.5em 0.25em;
     }
+    &[disabled] {
+      $top: 0.5em;
+      color: rgba(0,0,0,0.5);
+      cursor: default;
+      position: relative;
+      &:before {
+        border-color: #ef6116 transparent transparent transparent;
+        border-style: solid;
+        border-width: 0.5em;
+        content: '';
+        left: 50%;
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, 0.5em);
+      }
+      &:after {
+        background-color: #ef6116;
+        border-radius: 3px;
+        color: white;
+        content: 'COMING SOON!';
+        font-size: 0.8em;
+        padding: 0 0.5em;
+        position: absolute;
+        left: 50%;
+        text-shadow: 1px 0 0 rgba(0,0,0,0.2);
+        top: 0;
+        transform: translate(-50%, -0.5em);
+        white-space: nowrap;
+      }
+    }
   }
 }
 

@@ -1,20 +1,28 @@
 intro: |
-  Our menu is house crafted from quality produce, meat, and spices. We take the freshest, most flavorful ingredients and make food from scratch, resting upon tastes traditional to Thailand and Mexico while infusing tastes from other culinary traditions and the tradition of innovation. We grind and toast our spices instead of buying them pre-ground, we make all of our salsas/sauces, marinades, and side dishes using base ingredients instead of pre-made mixes, and we flatten and grill our taco tortillas. Our recipes are created by us through studying the experts. We pay attention to the dietary needs of many while only serving what we consider to be delicious. Options for meat dishes, vegetarian dishes, vegan dishes, or gluten free dishes are available.
+  Our menu is house crafted from quality produce, meat, and spices. We take the
+  freshest, most flavorful ingredients and make food from scratch, resting upon
+  tastes traditional to Thailand and Mexico while infusing tastes from other
+  culinary traditions and the tradition of innovation. We grind and toast our
+  spices instead of buying them pre-ground, we make all of our salsas/sauces,
+  marinades, and side dishes using base ingredients instead of pre-made mixes,
+  and we flatten and grill our taco tortillas. Our recipes are created by us
+  through studying the experts. We pay attention to the dietary needs of many
+  while only serving what we consider to be delicious. Options for meat dishes,
+  vegetarian dishes, vegan dishes, or gluten free dishes are available.
 
 sections:
   - name: Starters / Kids
     description:
-
-    items: 
-      - name: Spring Rolls (Vegetarian)
-        description: >
-          Three homemade vegetarian spring rolls served with either a sweet homemade sauce called amber vinegar on our Thai peanut sauce. Note served only during cold weather due to fryer heat.
-        price: $4
-
+    items:
       - name: Bean Dip & Chips
         description: >
-          Large portion of our Chile Pasilla pinto beans, green salsa, and cheese, served with chips.
+          Large portion of our Chile Pasilla pinto beans, green salsa, and jack
+          cheese, served with chips.
         price: $3.5
+        variants:
+          - >
+            Make it a deluxe bean dip with a scoop of cabbage salsa, cilantro,
+            cotija cheese and guacamole: $5
 
       - name: Guacamole & Chips
         description: >
@@ -26,34 +34,50 @@ sections:
           Fresh red tomato salsa served with chips.
         price: $2
 
-      - name: Kid's Quesadilla
+      - name: Kid's Quesadillas
         description: >
-          Quesadilla made with just cheese on homemade corn tortilla.
+          A quesadilla made with just cheese on a flour tortilla with chips &
+          slasa or rice and beans.
         price: $2
         variants:
           - >
             With chicken: $5
 
+      - name: Mabel's Wheelhouse Rollup
+        description: >
+          This dish was five-year-old Mabel's delicious creation–a flour
+          tortilla wrapped around spanish rice, refried pinto beans and jack
+          cheese then grilled on both sides and topped with peanut or mojo
+          sauce. Garnished with fresh cilantro and cotija cheese.
+        price: $5
+
+
 
   - name: Main Dishes
-    description:
-
-    items: 
+    description: |
+      Choose Spiciness: 1-5 Stars &nbsp;|&nbsp; Guacamole: +$1.5 &nbsp;|&nbsp; Sour Cream: free &nbsp;|&nbsp; All prices include tax
+    items:
       - name: Wheelhouse Drunken Noodles
         description: >
-          We use the intense heat of the wok to fry up a fresh mixture of broccoli, purple cabbage, and carrots with a garlic infused olive oil. Thin & wide rice noodles boiled to be deliciously soft are added to the veggies along with fresh spinach, Thai basil, and a sweet molasses-like sauce.
+          We use the intense heat of the wok to fry up a fresh mixture of
+          broccoli, purple cabbage, and carrots with a garlic infused olive
+          oil. Thin & wide rice noodles boiled to be deliciously soft are added
+          to the veggies along with Tai basil, and a sweet molasses-like sauce.
         price: $7
         variants:
           - >
             Veggie: $7
           - >
-            Chicken: $8.5
+            Chicken: $8
           - >
-            Sweet Steak: $9.5
+            Sweet Steak: $8.25
 
       - name: Wheelhouse Nachos
         description: >
-          These nachos are huge and worthy of any nacho lover's attention. We take a bed of fresh chips and add cheese, pinto beans, plus the meat of your choice or veggies. Green sauce goes all over the top along with a dusting of Mexican cheese red onions and cilantro.
+          These nachos are huge and worthy of any nacho lover's attention. We
+          take a bed of fresh chips and add cheese, pinto beans, plus the meat
+          of your choice or veggies. Green sauce goes all over the top along
+          with a dusting of Mexican cheese, red onions, and cilantro.
         price: $7
         variants:
           - >
@@ -62,104 +86,154 @@ sections:
             Chicken: $8.5
           - >
             Sweet Steak: $9.5
+
+      - name: Pad Thai
+        description: >
+          The Wheelhouse Pad Thai is made with a vegetarian tamarind and soy
+          based sauce with lime, palm sugar and chili pasilla. We wok-fry
+          veggies with thin rice noodles and top the dish with fresh mung bean
+          sprouts, green onion, cilantro and crushed peanuts.
+        price: $7.50
+        variants:
+          - >
+            Veggie: $7.5
+          - >
+            Chicken: $8.5
+          - >
+            Sweet Steak: $9
 
       - name: Pineapple Fried Rice
         description: >
-          Made vegan with steamed Jasmine rice, fresh pineapple chunks, palm sugar, habanero peppers, white wine, rice vinegar, fresh ginger and garlic, black pepper, and love. We glaze all of the flavor onto the rice grains in our Chinese wok with 150,000 BTUs of wonderful heat. Have it with meat or keep it vegan.
-        price: $7
+          This very popular dish starts with jasmine rice in a hot wok, fried
+          in our signature garlic and ginger oil. It's then cooked with fresh
+          lemongrass, coconut milk and homemade veggie stock and added back to
+          a wok filled with veggies and fesh pineapple. Served with green
+          onions and a side of gluten-free teriyaki sauce.
+        price: $7.5
         variants:
           - >
-            Veggie: $7
+            Veggie: $7.5
           - >
             Chicken: $8.5
           - >
-            Sweet Steak: $9.5
+            Sweet Steak: $9
+
+
 
   - name: Burritos
     description: |
-      Our burritos come with homemade Spanish rice and our version of refried beans which are low in fat and made with roasted garlic and ground Chile Pasilla. We also push Monterey Jack cheese, guacamole and sour cream if you want, along with a homemade Thai Chile sauce for your chosen level of spiciness (1-5 stars).
+      Choose Spiciness: 1-5 Stars &nbsp;|&nbsp; Guacamole: +$1.5 &nbsp;|&nbsp; Sour Cream: free &nbsp;|&nbsp; All prices include tax
+
+      Our burritos come with homemade Spanish rice and our version of refried
+      beans which are low in fat and made with roasted garlic and ground Chile
+      Pasilla. We also put Monterey Jack cheese, guacamole and sour cream if
+      you want, along with a homemade Thai Chile sauce for your chosen level of
+      spiciness (1-5 stars). For a no-tortilla option, request a bowl or salad
+      version of any burrito.
     items:
       - name: Sweet Steak Burrito
         description: >
-          This burrito comes with a thinly sliced steak that is marinated in a sweet soy sauce mixture inspired by the South Korean dish, Bulgogi. It's boldly sweet and slightly fruity with a pleasant garlic flavor.
-        price: $9.5
-        variants:
-          - >
-            Lunch size: $8.5
+          This burrito comes with a thinly sliced steak that is marinated in a
+          sweet soy sauce mixture inspired by the South Korean dish, Bulgogi.
+          It's boldly sweet and slightly fruity with a pleasant garlic flavor.
+        price: $8.5
 
       - name: Peanut Chicken Burrito
         description: >
-          The Peanut Chicken Burrito comes with our shredded chicken and a homemade Thai peanut sauce that's sweetened with palm sugar and made from whole peanuts. It's sweet and salty and completely nutty.
+          The Peanut Chicken Burrito comes with our shredded chicken and a
+          homemade Thai peanut sauce that's sweetened with palm sugar and made
+          from whole peanuts. It's sweet and salty and completely nutty.
         price: $7.5
-        variants:
-          - >
-            Lunch size: $6.5
 
       - name: Green Mojo Burrito
         description: >
-          Green Mojo is our roasted tomatillo green salsa that's lightly spicy, slightly citrus, and full of savory flavor. The burrito comes with shredded chicken, pinto beans, Spanish rice, jack cheese, Green Mojo Salsa, and guacamole and sour cream if you'd like.
+          Green Mojo is our roasted tomatillo green salsa that's lightly spicy,
+          slightly citrus, and full of savory flavor. The burrito comes with
+          shredded chicken, pinto beans, Spanish rice, jack cheese, Green Mojo
+          Salsa, and guacamole and sour cream if you'd like.
         price: $7.5
-        variants:
-          - >
-            Lunch size: $6.5
 
       - name: Veggie Special Burrito
         description: >
-          The Veggie Special burrito is special because of the sweet blend of bell peppers, red onions, squash, and zucchini that go into the center. The veggies are cooked in a high-heat wok with a soy sauce marinade and a blend of organic spices. Choose Mojo Green Salsa or Peanut Sauce.
-        price: $7
-        variants:
-          - >
-            Lunch size: $6
+          The Veggie Special burrito is special because of the sweet blend of
+          bell peppers, red onions, squash, and zucchini that go into the
+          center. The veggies are cooked in a high-heat wok with a soy sauce
+          marinade and a blend of organic spices. Choose Mojo Green Salsa,
+          Peanut Sauce, or BOTH!
+        price: $6.75
+
+
 
   - name: Tacos
     description: |
-      An order comes with two tacos they are made with homemade corn tortillas and served with chips, fresh red salsa, and your choice of either our bean dip or our cabbage salsa. Tacos come with red onions, cilantro, Mexican Cotija cheese, and guacamole and sour cream if you choose.
-
-    items: 
+      An order comes with two tacos. They are made with homemade corn tortillas
+      and served with chips, fresh red salsa, and your choice of either our
+      bean dip or our cabbage salsa. Tacos come with red onions, cilantro,
+      Mexican Cotija cheese, and guacamole and sour cream if you choose.
+    items:
       - name: Sweet Steak Tacos
         description: >
-          Made with a thinly sliced Korean style steak called Bulgogi. The homemade corn tortillas are a delicious platform for the sweet, fruity, garlic flavored steak.
+          Made with a thinly sliced Korean style steak called Bulgogi. The
+          homemade corn tortillas are a delicious platform for the sweet,
+          fruity, garlic flavored steak.
         price: $7.25
 
       - name: Veggie Special Tacos
         description: >
-          Wok-fried veggies seasoned and piled on top of vegan, low-fat refried beans inside of homemade corn tortillas with your choice of either peanut sauce or Green Mojo salsa. Comes with chips and red salsa and either our cabbage salsa or bean dip.
+          Wok-fried veggies seasoned and piled on top of vegan, low-fat refried
+          beans inside of homemade corn tortillas with your choice of either
+          peanut sauce or Green Mojo salsa. Comes with chips and red salsa and
+          either our cabbage salsa or bean dip.
         price: $6.5
 
       - name: Peanut Chicken Tacos
         description: >
-          Made with shredded chicken and our homemade Thai peanut sauce. Sweetness and nuttiness combine with the taco toppings plus fresh corn tortilla flavor for a delicious fusion taco.
+          Made with shredded chicken and our homemade Thai peanut sauce.
+          Sweetness and nuttiness combine with the taco toppings plus fresh
+          corn tortilla flavor for a delicious fusion taco.
         price: $7
 
       - name: Green Mojo Tacos
         description: >
-          Shredded chicken packed into homemade corn tortillas with our Mojo Green Salsa on top. The Mojo salsa is made from scratch and is full of traditional home-style Mexican flavor. Full of spice and tang, bursting with tomatillo taste.
+          Shredded chicken packed into homemade corn tortillas with our Mojo
+          Green Salsa on top. The Mojo salsa is made from scratch and is full
+          of traditional home-style Mexican flavor. Full of spice and tang,
+          bursting with tomatillo taste.
         price: $7
+
 
 
   - name: Sides
     description:
-
-    items: 
+    items:
       - name: Guacamole
-        price: $1.5
-      - name: Spanish Rice
         price: $1
-      - name: Any Sauce
-        price: $0.25
-      - name: Chicken
-        price: $2
-      - name: Pinto Beans
-        price: $1
-      - name: Corn Tortilla
-        price: $0.25
+
+      - name: Peanut Sauce
+        price: $0.75
+
+      - name: Mojo Sauce
+        price: 0.75
+
+      - name: Red Salsa
+        price: $0.5
+
+      - name: Teriyaki Sauce
+        price: $0.5
+
+      - name: Cabbage Salsa
+        price: $0.5
+
 
 
   - name: Drinks
     description:
-
-    items: 
+    items:
       - name: Bottled Water
         price: $1
-      - name: Other Drinks
+
+      - name: Canned Sodas
+        price: $1.25
+
+      - name: Mexican Sodas & San Pellegrino sparkling fruit drinks
         price: $1.75

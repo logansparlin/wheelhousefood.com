@@ -38,6 +38,7 @@ prose:
         field:
           element: "checkbox"
           label: "published"
+          value: true
 
   ignore:
     - .gitignore

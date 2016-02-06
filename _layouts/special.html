@@ -3,9 +3,11 @@ layout: default
 ---
 
 <div class="post">
-  <!-- <header class="post-header"> -->
-  <!--   <p class="post-meta">{{ page.date | date: "%d %B %Y" }} - {{ page.date | date: "%s" | plus: 604800 | date: "%d %B %Y" }}</p> -->
-  <!-- </header> -->
+  {% comment %}
+  <header class="post-header">
+    <p class="post-meta">{{ page.date | date: "%d %B %Y" }} - {{ page.date | date: "%s" | plus: 604800 | date: "%d %B %Y" }}</p>
+  </header>
+  {% endcomment %}
 
   <article class="post-content">
     <h2>{{ page.title }}</h2>

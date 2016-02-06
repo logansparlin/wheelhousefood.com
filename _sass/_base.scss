@@ -116,6 +116,14 @@ table {
 }
 
 .site-content {}
+
+.post {}
+.post-content {
+  img {
+    max-width: 100%;
+  }
+}
+
 .site-footer {
   background-color: black;
   border-radius: 0 0 5px 5px;

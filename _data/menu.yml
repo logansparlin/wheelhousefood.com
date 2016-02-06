@@ -55,7 +55,7 @@ sections:
 
   - name: Main Dishes
     description: |
-      Choose Spiciness: 1-5 Stars &nbsp;|&nbsp; Guacamole: +$1.5 &nbsp;|&nbsp; Sour Cream: free &nbsp;|&nbsp; All prices include tax
+      Choose Spiciness: 1–5 Stars &nbsp;|&nbsp; Guacamole: +$1 &nbsp;|&nbsp; Sour Cream: free &nbsp;|&nbsp; All prices include tax
     items:
       - name: Wheelhouse Drunken Noodles
         description: >
@@ -122,7 +122,7 @@ sections:
 
   - name: Burritos
     description: |
-      Choose Spiciness: 1-5 Stars &nbsp;|&nbsp; Guacamole: +$1.5 &nbsp;|&nbsp; Sour Cream: free &nbsp;|&nbsp; All prices include tax
+      Choose Spiciness: 1–5 Stars &nbsp;|&nbsp; Guacamole: +$1 &nbsp;|&nbsp; Sour Cream: free &nbsp;|&nbsp; All prices include tax
 
       Our burritos come with homemade Spanish rice and our version of refried
       beans which are low in fat and made with roasted garlic and ground Chile

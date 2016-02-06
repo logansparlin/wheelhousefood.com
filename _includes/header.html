@@ -9,7 +9,8 @@
     {% endif %}
   {% endfor %}
   {% if site.specials.size %}
-  <a class="page-link" href="{{ site.specials[0].url | prepend: site.baseurl }}">Specials</a>
+  {% assign special = site.specials | sort: "-date" | reverse | first %}
+  <a class="page-link" href="{{ special.url | prepend: site.baseurl }}">Specials</a>
   {% endif %}
   <a class="page-link" disabled>Order Online</a>
 </nav>

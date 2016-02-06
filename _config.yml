@@ -30,15 +30,19 @@ prose:
   media: media
   ignore:
     - .gitignore
+    - Gemfile
+    - Gemfile.lock
     - _config.yml
     - _includes
     - _js
     - _layouts
+    - _posts
     - _sass
-    - about.md
     - bin
     - feed.xml
+    - images
     - index.html
     - js
+    - menu.md
     - package.json
     - webpack.config.js

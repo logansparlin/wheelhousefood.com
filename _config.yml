@@ -5,8 +5,7 @@ description: >
   The Wheelhouse serves delicious fusion dishes. We use high quality
   ingredients, focusing on Thai and Mexican food and exploring other culinary
   traditions.
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://wheelhousefood.com" # the base hostname & protocol for your site
+baseurl: "http://wheelhousefood.com" # the subpath of your site, e.g. /blog/
 facebook_username: wheelhousefood
 twitter_username: wheelhousefood
 google_username: 102749925529009691414

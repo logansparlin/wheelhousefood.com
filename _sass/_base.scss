@@ -14,10 +14,12 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-family: 'Mallanna';
   font-weight: 400;
+  margin: 0 0 0.5em 0;
 }
 
 h1 {
   border-bottom: 1.5px solid black;
+  margin-bottom: 1em;
 }
 
 a {
@@ -25,6 +27,7 @@ a {
 }
 
 p {
+  margin: 0 0 1em 0;
   text-align: justify;
 }
 
@@ -89,6 +92,7 @@ table {
       $color: #8ec557;
       color: rgba(0,0,0,0.3);
       cursor: default;
+      pointer-events: none;
       position: relative;
       &:before {
         border-color: transparent transparent $color transparent;
@@ -155,6 +159,20 @@ table {
     margin: 0 0 0 1em;
     text-decoration: none;
   }
+}
+
+.flex {
+  display: flex;
+}
+.flex > div {
+  flex: 1 0;
+  margin: 0 1em;
+}
+.flex > div:first-child {
+  margin-left: 0;
+}
+.flex > div:last-child {
+  margin-right: 0;
 }
 
 .menu {

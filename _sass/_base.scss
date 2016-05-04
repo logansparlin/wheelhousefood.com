@@ -163,10 +163,15 @@ table {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex > div {
   flex: 1 0;
   margin: 0 1em;
+  @include respond-to(mobile) {
+    flex: 1 0 100%;
+    margin: 0;
+  }
 }
 .flex > div:first-child {
   margin-left: 0;

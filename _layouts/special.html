@@ -9,12 +9,12 @@ layout: default
   </header>
   {% endcomment %}
 
+  {% if page.fb %}
+    <div class='fb-post' data-width='722' data-href='{{ page.fb }}'></div>
+  {% endif %}
+
   <article class="post-content">
     <h2>{{ page.title }}</h2>
-
-    {% if page.fb %}
-      <div class='fb-post' data-width='722' data-href='{{ page.fb }}'></div>
-    {% endif %}
 
     {{ page.content }}
   </article>

@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Menu
-permalink: /menu/
+#layout: page
+#title: Menu
+#permalink: /menu/
 ---
 
 {{ site.data.menu.intro }}

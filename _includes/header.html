@@ -3,7 +3,8 @@
 </header>
 
 <nav class="site-nav">
-  {% for page in site.pages %}
+  {% assign pages = site.pages | sort:'index' %}
+  {% for page in pages %}
     {% if page.title %}
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
     {% endif %}
@@ -14,5 +15,5 @@
   <a class="page-link" href="{{ special.url | prepend: site.baseurl }}">Specials</a>
   {% endif %}
 	{% endcomment %}
-  <a class="page-link" href="https://squareup.com/store/the-wheelhouse">Menu / Order Online</a>
+  {% comment %} <a class="page-link" href="https://squareup.com/store/the-wheelhouse">Menu / Order Online</a> {% endcomment %}
 </nav>

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: The Food Truck
-permalink: /the-food-truck/
-index: 1
+title: The Wheelhouse @ Vib
+permalink: /vib/
+index: 2
 ---
 
-{{ site.data.menu.intro }}
+{{ site.data.vib_menu.intro }}
 
 <div class="menu">
-  {% for section in site.data.menu.sections %}
-  <section class="menu-section {{ section.name | replace: '/', '' | replace: ' ', '' }}">
+  {% for section in site.data.vib_menu.sections %}
+  <section class="menu-section {{ section.name | replace: '/', '' | replace: ' ', '' | replace: '&', '' }}">
     <h2 class="menu-title">{{ section.name }}</h2>
     {% capture description %}{{ section.description }}{% endcapture %}
     <span class="menu-description">{{ description | markdownify }}</span>

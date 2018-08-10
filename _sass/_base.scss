@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: color(gamboge);
+  background-color: var(--gamboge);
   font-family: 'Mallanna';
   line-height: 1.3;
 }
@@ -209,6 +209,11 @@ table {
       border-bottom: 1px solid lightgrey;
     }
   }
+  ul {
+    font-size: 0.9em;
+    margin: 0 0 1em;
+    padding: 0 0 0 1.5em;
+  }
 }
 
 .menu-items {
@@ -225,18 +230,27 @@ table {
   }
 }
 
-.Sides, .Drinks {
+.Sides, .Drinks, .SoupsSides, .Appetizers, .CoffeeDrinks, .FreshJuiceCocktailBar {
   flex: 0 0 50%;
   @include respond-to(mobile) {
     flex: 0 0 100%;
   }
   .menu-items {
     flex-direction: column;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .menu-item__price {
     flex: 0 0 50px;
     text-align: left;
+  }
+}
+
+.CoffeeDrinks {
+  .menu-item__variants {
+    display: block;
+    span {
+      display: block;
+    }
   }
 }
 

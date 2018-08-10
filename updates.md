@@ -2,6 +2,7 @@
 layout: page
 title: Updates
 permalink: /Updates/
+index: 3
 ---
 
 <div class='fb-holder'>

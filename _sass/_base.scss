@@ -246,10 +246,55 @@ table {
 }
 
 .CoffeeDrinks {
+  .menu-item {
+    display: grid;
+    // height: 100%;
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: min-content min-content;
+    grid-gap: 0px;
+    grid-template-areas: "name price" "desc price";
+  }
+
+  .menu-item__name { display: block; grid-area: name; }
+
+  .menu-item__description { grid-area: desc; }
+
   .menu-item__variants {
     display: block;
+    grid-area: price;
+    margin: 0;
+    white-space: nowrap;
     span {
       display: block;
+    }
+  }
+
+  @media all and (-ms-high-contrast: none) {
+    .menu-item {
+      display: -ms-grid;
+      -ms-grid-columns: 1fr min-content;
+      -ms-grid-rows: min-content min-content;
+    }
+
+    .menu-item__variants {
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 2;
+      -ms-grid-column: 2;
+      -ms-grid-column-span: 1;
+    }
+
+    .menu-item__name {
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 1;
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 1;
+    }
+
+    .menu-item__description {
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 1;
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 1;
     }
   }
 }

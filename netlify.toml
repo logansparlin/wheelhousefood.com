@@ -3,4 +3,4 @@
   command = "jekyll build"
 
 [context.branch-deploy]
-  command = "jekyll build --baseurl $DEPLOY_URL"
+  command = "jekyll build --baseurl $DEPLOY_PRIME_URL"

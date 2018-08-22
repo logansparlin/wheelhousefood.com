@@ -1,14 +1,15 @@
 intro: |
-  Our menu is house crafted from quality produce, meat, and spices. We take the
-  freshest, most flavorful ingredients and make food from scratch, resting upon
-  tastes traditional to Thailand and Mexico while infusing tastes from other
-  culinary traditions and the tradition of innovation. We grind and toast our
-  spices instead of buying them pre-ground, we make all of our salsas/sauces,
-  marinades, and side dishes using base ingredients instead of pre-made mixes,
-  and we flatten and grill our taco tortillas. Our recipes are created by us
-  through studying the experts. We pay attention to the dietary needs of many
-  while only serving what we consider to be delicious. Options for meat dishes,
-  vegetarian dishes, vegan dishes, or gluten free dishes are available.
+  ### Hours
+
+  _Monday – Friday_  
+  11:00 AM - 8:30 PM
+
+  ### Location
+
+  [1670 E St Louis St  
+  Springfield, MO 65802](https://goo.gl/maps/KQiBpX9yUzj)
+
+  ## [Order Online](https://squareup.com/store/the-wheelhouse)
 
 sections:
   - name: Starters / Kids
@@ -50,8 +51,6 @@ sections:
           cheese then grilled on both sides and topped with peanut or mojo
           sauce. Garnished with fresh cilantro and cotija cheese.
         price: $5
-
-
 
   - name: Main Dishes
     description: |
@@ -123,15 +122,16 @@ sections:
 
   - name: Burritos
     description: |
-      *Spiciness:* &nbsp;|&nbsp; *Guacamole:* &nbsp;|&nbsp; *Sour Cream:*
-      1–5 Stars &nbsp;|&nbsp; +$1 &nbsp;|&nbsp; free
-
       Our burritos come with homemade Spanish rice and our version of refried
       beans which are low in fat and made with roasted garlic and ground Chile
       Pasilla. We also put Monterey Jack cheese, guacamole and sour cream if
       you want, along with a homemade Thai Chile sauce for your chosen level of
       spiciness (1-5 stars). For a no-tortilla option, request a bowl or salad
       version of any burrito.
+
+      *Spiciness:* &nbsp;|&nbsp; *Guacamole:* &nbsp;|&nbsp; *Sour Cream:*
+      1–5 Stars &nbsp;|&nbsp; +$1 &nbsp;|&nbsp; free
+
     items:
       - name: Sweet Steak Burrito
         description: >

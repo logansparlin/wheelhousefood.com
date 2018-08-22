@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Menu
-permalink: /menu/
-index: 2
+title: The Food Truck
+permalink: /the-food-truck/
+index: 1
 ---
 
-{{ site.data.vib_menu.intro }}
+{{ site.data.menu.intro }}
 
 <div class="menu">
-  {% for section in site.data.vib_menu.sections %}
-  <section class="menu-section {{ section.name | replace: '/', '' | replace: ' ', '' | replace: '&', '' }}">
+  {% for section in site.data.menu.sections %}
+  <section class="menu-section {{ section.name | replace: '/', '' | replace: ' ', '' }}">
     <h2 class="menu-title">{{ section.name }}</h2>
     {% capture description %}{{ section.description }}{% endcapture %}
     <span class="menu-description">{{ description | markdownify }}</span>

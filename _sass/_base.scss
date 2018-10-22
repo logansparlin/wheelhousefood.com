@@ -230,7 +230,7 @@ table {
   }
 }
 
-.Sides, .Drinks, .SoupsSides, .Appetizers, .CoffeeDrinks, .FreshJuiceCocktailBar {
+.Sides, .Drinks, .SoupsSides, .Appetizers, .Bakery, .CoffeeDrinks {
   flex: 0 0 50%;
   @include respond-to(mobile) {
     flex: 0 0 100%;

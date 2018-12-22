@@ -8,8 +8,9 @@
     "url": "https://github.com/adamyonk/wheelhousefood.com"
   },
   "scripts": {
-    "start": "webpack --watch",
     "build": "webpack",
+    "serve": "bundle exec jekyll serve --baseUrl ''",
+    "start": "webpack --watch",
     "test": "standard"
   },
   "author": "Adam Jahnke",

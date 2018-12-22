@@ -33,28 +33,61 @@ sections:
       We also use local and  sustainable Circle B Ranch (Seymour, MO) pork for
       our sausage, bacon and pork butts.
     items:
-      - name: Huevos Rancheros (gluten free)
+      - name: 2 Eggs, cooked your way
         description: |
-          Our tangy, slightly spicy Mojo sauce topped with two fried eggs on hand
-          pressed fresh corn tortillas. Garnished with natural queso fresco,
-          pico de gallo and cilantro. Lime-cilantro black beans accompany, and
-          guacamole or sour cream is also a delicious addition.
-        price: $8
+          2 eggs cooked to your preference and served with locally sourced bacon, sausage or griddled fajita veggies and fried potatoes or a yogurt parfait.
+        price: $6
 
-      - name: Chimichurri Ciabatta Sandwich
+      - name: Buttermilk Pancakes
+        description: |
+          Three made from scratch buttermilk pancakes served with real maple syrup or house-made strawberry sauce and real whipped cream.
+
+        price: $7.00 (single $3.00)
+        variants:
+          - >
+            Banana<br/>+$1
+          - >
+            Chocolate chips<br/>+$1
+
+      - name: Cheddar Biscuits and Sausage Gravy
+        price: $6.50
+        description: |
+          Real, pan-made sausage gravy tops two freshly baked cheddar cheese biscuits from B&B Boulangerie. Topped with shredded jack cheese.
+
+      - name: Korean Pancakes with Kimchi Eggs
+        price: $7.50
+        description: |
+          Savory scallion pancakes (Pajeon) with fall-spiced fermented carrots and chili paste served with eggs scrambled with cheese and house-made kimchi. Served wok-fried potatoes in thai basil sauce.
+
+      - name: Breakfast Burrito or Bowl
+        price: $7.50 
+        description: |
+          A full-sized breakfast meal, a 12 inch flour tortilla surrounds fresh-made lime-cilantro black beans, hand-cut fried potatoes, Circle B Ranch sausage and natural Monterey Jack cheese. Delicious with fresh guacamole or seasonal greens.
+
+      - name: Vegan Breakfast Burrito or Bowl
+        price: $7.50
+        description: |
+          A veggie-filled way to begin the day! We fill a 12 inch wheat tortilla with lime-black beans, fajita seasoned veggies, seasonal local greens, potatoes, guacamole and Mojo sauce. Make it spicy if you like!
+
+      - name: Huevos Rancheros
+        price: $8.00
+        description: |
+          Our tangy, slightly spicy Mojo sauce tops two fried eggs on hand pressed fresh corn tortillas. Garnished with natural cotija cheese, pico de gallo and cilantro. Lime-cilantro black beans and Spanish rice accompany. 
+        variants:
+          - >
+            Guacamole<br/>+$1.50
+          - >
+            Sour cream<br/>+$.25
+
+      - name: Chimichurri Ciabatta Egg Sandwich
         price: $6.75
         description: |
-          Two eggs and Circle B Ranch bacon served between a griddled local
-          ciabatta bun with freshly made chimichurri and seasonal, dressed
-          greens.
+          Two fried eggs and Circle B Ranch bacon are sandwiched between a griddled local ciabatta bun with freshly made chimichurri and seasonal local greens.
 
-      - name: Wheelhouse Breakfast Burrito
+      - name: Wheelhouse Green Smoothie
+        price: $5.50
         description: |
-          A full-sized breakfast meal, a 12 inch flour tortilla surrounds
-          fresh-made lime-cilantro black beans, hand-cut fried potatoes, Circle
-          B Sausage and natural Monterey Jack cheese. Delicious with added
-          fresh guacamole and seasonal greens.
-        price: $7.5
+          We all drink a green smoothie as a part of the daily routine around here, so we thought we’d put it on the menu for you to try. Our favorite recipe blends frozen ripe bananas with spinach, strawberries and blueberries. Enjoy!
 
       - name: Fruit
         description: Rotating – Apples, oranges, or bananas.
@@ -93,6 +126,10 @@ sections:
           with red onions, cilantro, and cotija cheese.
         price: $10.95
 
+      - name: Smoked Pork Tacos
+        description:
+        price: $11.95
+
       - name: Sweet Steak Tacos
         description: |
           Made with our version of a thinly sliced, Korean style steak called
@@ -101,13 +138,6 @@ sections:
           corn tortillas and garnished with red onions, cilantro, and cotija
           cheese.
         price: $11.95
-
-      - name: Kimchi Falafel Tacos
-        description: |
-          Fresh falafel made from whole garbanzo beans brown lentils, and
-          spices. Homemade kimchi on top with chipotle aeoli, cilantro, red
-          onions, and cotija cheese.
-        price: $10.95
 
       - name: Veggie Special Tacos
         description: |
@@ -119,6 +149,54 @@ sections:
           team because they are loaded with delicious veggies and perfect for
           vegans and vegetarians. _Includes guacamole._
         price: $10.95
+
+  - name: Burritos and Burrito Bowls
+    description: |
+      Our burritos come with homemade Spanish rice and our version of refried
+      beans which are low in fat and made with roasted garlic and ground Chile
+      Pasilla. We also put Monterey Jack cheese, guacamole and sour cream if
+      you want, along with a homemade Thai Chile sauce for your chosen level of
+      spiciness (1-5 stars). For a no-tortilla option, request a bowl or salad
+      version of any burrito.
+
+      *Spiciness:* &nbsp;|&nbsp; *Guacamole:* &nbsp;|&nbsp; *Sour Cream:*
+      1–5 Stars &nbsp;|&nbsp; +$1 &nbsp;|&nbsp; free
+
+    items:
+      - name: Sweet Steak
+        description: >
+          This burrito comes with a thinly sliced steak that is marinated in a
+          sweet soy sauce mixture inspired by the South Korean dish, Bulgogi.
+          It's boldly sweet and slightly fruity with a pleasant garlic flavor.
+        price: $10.95
+
+      - name: Smoked Pork
+        description:
+        price: $10.95
+
+      - name: Peanut Chicken
+        description: >
+          The Peanut Chicken Burrito comes with our shredded chicken and a
+          homemade Thai peanut sauce that's sweetened with palm sugar and made
+          from whole peanuts. It's sweet and salty and completely nutty.
+        price: $9.95
+
+      - name: Mojo Chicken
+        description: >
+          Green Mojo is our roasted tomatillo green salsa that's lightly spicy,
+          slightly citrus, and full of savory flavor. The burrito comes with
+          shredded chicken, pinto beans, Spanish rice, jack cheese, Green Mojo
+          Salsa, and guacamole and sour cream if you'd like.
+        price: $9.95
+
+      - name: Veggie Special
+        description: >
+          The Veggie Special burrito is special because of the sweet blend of
+          bell peppers, red onions, squash, and zucchini that go into the
+          center. The veggies are cooked in a high-heat wok with a soy sauce
+          marinade and a blend of organic spices. Choose Mojo Green Salsa,
+          Peanut Sauce, or BOTH!
+        price: $9.95
 
   - name: Wok Dishes
     description: |

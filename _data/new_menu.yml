@@ -16,6 +16,35 @@ intro_: |
   Springfield, MO 65804](https://goo.gl/maps/C9xCBnR89HC2)
 
   ## [Order Online](https://squareup.com/store/thewheelhouse)
-
 sections:
+  - description: >-
+      The Wheelhouse will provide a breakfast menu available from 6 – 10:30 am
+      that will consist of 3 hot dishes made fresh in the kitchen during
+      breakfast hours and will also have pastries provided by B&B Boulangerie
+      (Katie Kring), a local baker based in central Springfield. All pastries
+      are made from scratch according to traditional european and world methods.
+      Katie uses high quality flours, sugars and real butter in her pastries.
+      She also bakes the ciabatta roll we have been using for the breakfast
+      sandwiches.
 
+
+      We also use local and  sustainable Circle B Ranch (Seymour, MO) pork for
+      our sausage, bacon and pork butts.
+    items:
+      - description: >-
+          2 eggs cooked to your preference and served with locally sourced
+          bacon, sausage or griddled fajita veggies and fried potatoes or a
+          yogurt parfait.
+        name: '2 Eggs, cooked your way'
+        price: 6
+      - description: >-
+          Three made from scratch buttermilk pancakes served with real maple
+          syrup or house-made strawberry sauce and real whipped cream.
+        name: Buttermilk Pancakes
+        price: 7
+        variants:
+          - name: Banana
+            price: 1
+          - name: Chocolate Chips
+            price: 1
+    name: Breakfast

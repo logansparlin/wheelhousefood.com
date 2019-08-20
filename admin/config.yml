@@ -1,0 +1,54 @@
+backend:
+  name: git-gateway
+  branch: gh-pages
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+media_folder: "media"
+# public_folder: "media"
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Menu"
+        name: "menu"
+        file: "_data/new_menu.yml"
+        fields:
+          - label: "Intro"
+            name: "intro_"
+            widget: "markdown"
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "markdown"
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Description"
+                    name: "description"
+                    widget: "markdown"
+                  - label: "Price"
+                    name: "price"
+                    widget: "number"
+                    valueType: "float"
+                  - label: "Variants"
+                    name: "variants"
+                    widget: "list"
+                    fields:
+                      - label: "Name"
+                        name: "name"
+                        widget: "string"
+                      - label: "Price"
+                        name: "price"
+                        widget: "number"
+                        valueType: "float"

@@ -1,14 +1,14 @@
 intro_: |
   ### Hours
 
-  _Breakfast/Coffee_  
-  Monday – Sunday 6am – 10:30am
+  _Coffee/Grab-and-go items_  
+  Sunday – Thursday 7:30 AM – 10:30 AM
 
   _Lunch/Dinner/Cocktails_  
-  Sunday – Thursday 11 AM – 9 PM
+  Sunday – Thursday 10:30 AM – 9 PM
 
   _Lunch/Dinner/Cocktails_  
-  Friday – Saturday 11 AM – 10 PM
+  Friday – Saturday 10:30 AM – 10 PM
 
   ### Location
 
@@ -19,90 +19,90 @@ intro_: |
 
 sections:
 
-  - name: Breakfast
-    description: |
-      The Wheelhouse will provide a breakfast menu available from 6 – 10:30 am
-      that will consist of 3 hot dishes made fresh in the kitchen during
-      breakfast hours and will also have pastries provided by B&B Boulangerie
-      (Katie Kring), a local baker based in central Springfield. All pastries
-      are made from scratch according to traditional european and world
-      methods. Katie uses high quality flours, sugars and real butter in her
-      pastries. She also bakes the ciabatta roll we have been using for the
-      breakfast sandwiches.
+  # - name: Breakfast
+  #   description: |
+  #     The Wheelhouse will provide a breakfast menu available from 6 – 10:30 am
+  #     that will consist of 3 hot dishes made fresh in the kitchen during
+  #     breakfast hours and will also have pastries provided by B&B Boulangerie
+  #     (Katie Kring), a local baker based in central Springfield. All pastries
+  #     are made from scratch according to traditional european and world
+  #     methods. Katie uses high quality flours, sugars and real butter in her
+  #     pastries. She also bakes the ciabatta roll we have been using for the
+  #     breakfast sandwiches.
 
-      We also use local and  sustainable Circle B Ranch (Seymour, MO) pork for
-      our sausage, bacon and pork butts.
-    items:
-      - name: 2 Eggs, cooked your way
-        description: |
-          2 eggs cooked to your preference and served with locally sourced bacon, sausage or griddled fajita veggies and fried potatoes or a yogurt parfait.
-        price: $6
+  #     We also use local and  sustainable Circle B Ranch (Seymour, MO) pork for
+  #     our sausage, bacon and pork butts.
+  #   items:
+  #     - name: 2 Eggs, cooked your way
+  #       description: |
+  #         2 eggs cooked to your preference and served with locally sourced bacon, sausage or griddled fajita veggies and fried potatoes or a yogurt parfait.
+  #       price: $6
 
-      - name: Buttermilk Pancakes
-        description: |
-          Three made from scratch buttermilk pancakes served with real maple syrup or house-made strawberry sauce and real whipped cream.
+  #     - name: Buttermilk Pancakes
+  #       description: |
+  #         Three made from scratch buttermilk pancakes served with real maple syrup or house-made strawberry sauce and real whipped cream.
 
-        price: $7.00 (single $3.00)
-        variants:
-          - >
-            Banana<br/>+$1
-          - >
-            Chocolate chips<br/>+$1
+  #       price: $7.00 (single $3.00)
+  #       variants:
+  #         - >
+  #           Banana<br/>+$1
+  #         - >
+  #           Chocolate chips<br/>+$1
 
-      - name: Cheddar Biscuits and Sausage Gravy
-        price: $6.50
-        description: |
-          Real, pan-made sausage gravy tops two freshly baked cheddar cheese biscuits from B&B Boulangerie. Topped with shredded jack cheese.
+  #     - name: Cheddar Biscuits and Sausage Gravy
+  #       price: $6.50
+  #       description: |
+  #         Real, pan-made sausage gravy tops two freshly baked cheddar cheese biscuits from B&B Boulangerie. Topped with shredded jack cheese.
 
-      - name: Korean Pancakes with Kimchi Eggs
-        price: $7.50
-        description: |
-          Savory scallion pancakes (Pajeon) with fall-spiced fermented carrots and chili paste served with eggs scrambled with cheese and house-made kimchi. Served wok-fried potatoes in thai basil sauce.
+  #     - name: Korean Pancakes with Kimchi Eggs
+  #       price: $7.50
+  #       description: |
+  #         Savory scallion pancakes (Pajeon) with fall-spiced fermented carrots and chili paste served with eggs scrambled with cheese and house-made kimchi. Served wok-fried potatoes in thai basil sauce.
 
-      - name: Breakfast Burrito or Bowl
-        price: $7.50 
-        description: |
-          A full-sized breakfast meal, a 12 inch flour tortilla surrounds fresh-made lime-cilantro black beans, hand-cut fried potatoes, Circle B Ranch sausage and natural Monterey Jack cheese. Delicious with fresh guacamole or seasonal greens.
+  #     - name: Breakfast Burrito or Bowl
+  #       price: $7.50 
+  #       description: |
+  #         A full-sized breakfast meal, a 12 inch flour tortilla surrounds fresh-made lime-cilantro black beans, hand-cut fried potatoes, Circle B Ranch sausage and natural Monterey Jack cheese. Delicious with fresh guacamole or seasonal greens.
 
-      - name: Vegan Breakfast Burrito or Bowl
-        price: $7.50
-        description: |
-          A veggie-filled way to begin the day! We fill a 12 inch wheat tortilla with lime-black beans, fajita seasoned veggies, seasonal local greens, potatoes, guacamole and Mojo sauce. Make it spicy if you like!
+  #     - name: Vegan Breakfast Burrito or Bowl
+  #       price: $7.50
+  #       description: |
+  #         A veggie-filled way to begin the day! We fill a 12 inch wheat tortilla with lime-black beans, fajita seasoned veggies, seasonal local greens, potatoes, guacamole and Mojo sauce. Make it spicy if you like!
 
-      - name: Huevos Rancheros
-        price: $8.00
-        description: |
-          Our tangy, slightly spicy Mojo sauce tops two fried eggs on hand pressed fresh corn tortillas. Garnished with natural cotija cheese, pico de gallo and cilantro. Lime-cilantro black beans and Spanish rice accompany. 
-        variants:
-          - >
-            Guacamole<br/>+$1.50
-          - >
-            Sour cream<br/>+$.25
+  #     - name: Huevos Rancheros
+  #       price: $8.00
+  #       description: |
+  #         Our tangy, slightly spicy Mojo sauce tops two fried eggs on hand pressed fresh corn tortillas. Garnished with natural cotija cheese, pico de gallo and cilantro. Lime-cilantro black beans and Spanish rice accompany. 
+  #       variants:
+  #         - >
+  #           Guacamole<br/>+$1.50
+  #         - >
+  #           Sour cream<br/>+$.25
 
-      - name: Chimichurri Ciabatta Egg Sandwich
-        price: $6.75
-        description: |
-          Two fried eggs and Circle B Ranch bacon are sandwiched between a griddled local ciabatta bun with freshly made chimichurri and seasonal local greens.
+  #     - name: Chimichurri Ciabatta Egg Sandwich
+  #       price: $6.75
+  #       description: |
+  #         Two fried eggs and Circle B Ranch bacon are sandwiched between a griddled local ciabatta bun with freshly made chimichurri and seasonal local greens.
 
-      - name: Wheelhouse Green Smoothie
-        price: $5.50
-        description: |
-          We all drink a green smoothie as a part of the daily routine around here, so we thought we’d put it on the menu for you to try. Our favorite recipe blends frozen ripe bananas with spinach, strawberries and blueberries. Enjoy!
+  #     - name: Wheelhouse Green Smoothie
+  #       price: $5.50
+  #       description: |
+  #         We all drink a green smoothie as a part of the daily routine around here, so we thought we’d put it on the menu for you to try. Our favorite recipe blends frozen ripe bananas with spinach, strawberries and blueberries. Enjoy!
 
-      - name: Fruit
-        description: Rotating – Apples, oranges, or bananas.
-        price: $1.5
+  #     - name: Fruit
+  #       description: Rotating - Apples, oranges, or bananas.
+  #       price: $1.5
 
-      - name: Honey Lime Mint seasonal fruit cup
-        price: $3.5
+  #     - name: Honey Lime Mint seasonal fruit cup
+  #       price: $3.5
 
-      - name: Organic Yogurt parfait
-        description: Vanilla yogurt with honey, lime, fruit, and granola.
-        price: $4.5
+  #     - name: Organic Yogurt parfait
+  #       description: Vanilla yogurt with honey, lime, fruit, and granola.
+  #       price: $4.5
 
-      - name: Oatmeal
-        description: With nuts and berries.
-        price: $3.5
+  #     - name: Oatmeal
+  #       description: With nuts and berries.
+  #       price: $3.5
 
   - name: Lunch and Dinner
 
@@ -249,7 +249,7 @@ sections:
         price: $13.75
       - name: Kimchi Falafel
         description: |
-          Fresh falafel made from whole barbanzo beans, brown lentils, and
+          Fresh falafel made from whole garbanzo beans, brown lentils, and
           spices inside of grilled ciabatta bread from B&B Boulangerie,
           homemade grilled kimchi, cilantro, lettuce, and chipotle aeoli.
         price: $11.25

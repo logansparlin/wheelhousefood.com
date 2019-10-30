@@ -1,0 +1,214 @@
+:root {
+  --yellow: #F5C115;
+  --background: var(--yellow);
+  --foreground: #111111;
+  --foreground_transparent: #11111180;
+  /* --background: #111111; */
+  /* --foreground: var(--yellow); */
+  /* --foreground_transparent: #F5C11580; */
+}
+@font-face {
+  font-family: "Trade Gothic Condensed";
+  src: url("./trade-gothic-condensed.woff2");
+}
+@font-face {
+  font-family: "Trade Gothic Light";
+  src: url("./trade-gothic-light.ttf");
+}
+@font-face {
+  font-family: "Orater";
+  src: url("./orater.woff2");
+}
+.lowercase {
+  text-transform: lowercase;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Trade Gothic Condensed";
+  font-size: 0.8vw;
+  margin: 0;
+}
+#container {
+  display: flex;
+	flex-direction: column;
+  height: calc(100vw * 0.5625);
+  overflow: hidden;
+}
+.header {
+	display: flex;
+	flex-shrink: 0;
+	padding: 0 2em;
+}
+.header > * {
+	flex: 0 0 auto;
+}
+.logo {
+	background-image: url("./logo2.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+  flex: 1 0 auto;
+  height: 90px;
+	margin: 1em 0;
+}
+.header .right {
+	border-color: var(--foreground_transparent);
+	border-style: solid;
+	border-width: 0.2em 0;
+	margin: 2em 0 0.5em 0;
+	padding: 1em 10em;
+	text-align: center;
+}
+.header .right .text {
+  font-size: 1.7em;
+}
+
+.columns {
+	display: flex;
+	flex: 1 0 auto;
+}
+.column {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  padding: 2em;
+  position: relative;
+}
+.column::after {
+  bottom: 1.5em;
+  border-right: 0.2em solid var(--foreground_transparent);
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 1.5em;
+}
+.column:last-child::after,
+.column.no-border::after {
+  display: none;
+}
+
+.heading {
+  font-size: 5.25em;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  margin-bottom: 0.25em;
+  text-transform: uppercase;
+}
+.heading .info {
+  font-size: 0.35em;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 2.5em;
+}
+.section:last-child {
+  margin-bottom: 0;
+}
+.section.spacer {
+	flex: 1 0 auto;
+}
+
+.section-title {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.section-title .info {
+	font-size: 0.4em;
+	margin-bottom: 0.75em;
+}
+
+.options {
+  padding: 0 2em;
+}
+.options .title-price {
+  font-size: 1.3em;
+}
+.options .options {
+  padding: 0 0 0 2em;
+}
+.options .options .title-price {
+  font-size: 1.1em;
+}
+
+.info {
+  font-family: "Trade Gothic Light";
+  font-size: 0.7em;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.item {
+  margin: 0 0 0.5em;
+}
+.item .title-price {
+  margin: 0;
+}
+.item > .info {
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0 0 0.5em;
+}
+
+.title-price {
+  align-items: flex-end;
+  display: flex;
+  font-size: 1.7em;
+  justify-content: space-between;
+  margin: 0 0 0.2em;
+  width: 100%;
+}
+.title-price .title {
+  text-transform: uppercase;
+}
+.title-price .price {
+  display: flex;
+  font-family: "Orater";
+  letter-spacing: -2px;
+}
+.title-price .price.multi {
+  flex-basis: 2.5em;
+  flex-grow: 0;
+}
+.title-price .price.strong {
+  font-family: "Trade Gothic Condensed";
+  letter-spacing: 0;
+}
+.title-price .separator {
+  border-top: 0.15em dotted var(--foreground_transparent);
+  content: "";
+  flex: 1 0 auto;
+  margin: 0 0.5em 0.4em;
+  min-width: 1em;
+}
+.title-price .separator.multi {
+  flex: 0 0 1em;
+}
+.title-price .spacer {
+  content: "";
+  flex: 1 0 auto;
+  margin: 0.6em 0.5em 0;
+}
+.title-price .spacer.multi {
+  flex: 0 0 1em;
+}
+
+.step {
+  display: block;
+  font-size: 1.3em;
+  font-family: "Orater";
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+  text-align: center;
+}
+.step .arrow {
+  display: block;
+  font-size: 2em;
+}

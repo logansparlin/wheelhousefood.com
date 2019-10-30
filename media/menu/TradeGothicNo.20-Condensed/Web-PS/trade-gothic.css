@@ -1,0 +1,9 @@
+/* Webfont: TradeGothicNo.20-CondBold */@font-face {
+    font-family: 'TradeGothicNo.20-Condensed';
+    src: url('trade-gothic.woff2') format('woff2'), /* Modern Browsers */
+         url('trade-gothic.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

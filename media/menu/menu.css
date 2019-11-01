@@ -24,6 +24,9 @@
 }
 * {
 	box-sizing: border-box;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: var(--background);
@@ -106,7 +109,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  margin-bottom: 2.5em;
+  margin-bottom: 1em;
 }
 .section:last-child {
   margin-bottom: 0;
@@ -203,7 +206,7 @@ body {
   display: block;
   font-size: 1.3em;
   font-family: "Orater";
-  line-height: 1.5em;
+  line-height: 1;
   margin-bottom: 0.5em;
   margin-top: 0.25em;
   text-align: center;

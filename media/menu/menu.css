@@ -1,5 +1,5 @@
 :root {
-  --yellow: #F5C115;
+  --yellow: #f5c115;
   --background: var(--yellow);
   --foreground: #111111;
   --foreground_transparent: #11111180;
@@ -23,7 +23,7 @@
   text-transform: lowercase;
 }
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
   line-height: 1.2;
   margin: 0;
   padding: 0;
@@ -35,44 +35,56 @@ body {
   font-size: 0.8vw;
   margin: 0;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 0.7em;
+  }
+}
 #container {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   height: calc(100vw * 0.5625);
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  #container {
+    height: 100%;
+  }
+}
 .header {
-	display: flex;
-	flex-shrink: 0;
-	padding: 0 2em;
+  display: flex;
+  flex-shrink: 0;
+  padding: 0 2em;
 }
 .header > * {
-	flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 .logo {
-	background-image: url("./logo2.png");
-	background-repeat: no-repeat;
-	background-position: 50%;
-	background-size: contain;
+  background-image: url("./logo2.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  display: block;
   flex: 1 0 auto;
   height: 90px;
-	margin: 1em 0;
+  margin: 1em 0;
+  text-decoration: none;
 }
 .header .right {
-	border-color: var(--foreground_transparent);
-	border-style: solid;
-	border-width: 0.2em 0;
-	margin: 2em 0 0.5em 0;
-	padding: 1em 10em;
-	text-align: center;
+  border-color: var(--foreground_transparent);
+  border-style: solid;
+  border-width: 0.2em 0;
+  margin: 2em 0 0.5em 0;
+  padding: 1em 10em;
+  text-align: center;
 }
 .header .right .text {
   font-size: 1.7em;
 }
 
 .columns {
-	display: flex;
-	flex: 1 0 auto;
+  display: flex;
+  flex: 1 0 auto;
 }
 .column {
   display: flex;
@@ -92,6 +104,18 @@ body {
 .column:last-child::after,
 .column.no-border::after {
   display: none;
+}
+@media (max-width: 768px) {
+  .columns {
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 1 0 100%;
+    width: 100%;
+  }
+  .column::after {
+    display: none;
+  }
 }
 
 .heading {
@@ -115,7 +139,7 @@ body {
   margin-bottom: 0;
 }
 .section.spacer {
-	flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .section-title {
@@ -123,8 +147,8 @@ body {
   text-transform: uppercase;
 }
 .section-title .info {
-	font-size: 0.4em;
-	margin-bottom: 0.75em;
+  font-size: 0.4em;
+  margin-bottom: 0.75em;
 }
 
 .options {

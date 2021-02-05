@@ -239,3 +239,6 @@ body {
   display: block;
   font-size: 2em;
 }
+.smallcaps {
+  font-variant: all-small-caps;
+}

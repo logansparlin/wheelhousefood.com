@@ -134,6 +134,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
   margin-bottom: 1em;
+  position: relative;
 }
 .section:last-child {
   margin-bottom: 0;
@@ -238,6 +239,7 @@ body {
 .step .arrow {
   display: block;
   font-size: 2em;
+  line-height: 0.8;
 }
 .smallcaps {
   font-variant: all-small-caps;

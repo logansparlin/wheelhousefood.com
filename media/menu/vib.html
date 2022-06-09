@@ -6,7 +6,7 @@
     <style>
       body {
         /* background-color: transparent; */
-        font-size: 0.6vw;
+        font-size: 0.75vw;
         /* font-size: 0.55vw; */
       }
       @media (max-width: 768px) {
@@ -15,7 +15,7 @@
         }
       }
       #container {
-        height: calc(100vw * 0.6512);
+        aspect-ratio: 17/11;
       }
       @media (max-width: 768px) {
         #container {
@@ -26,199 +26,7 @@
   </head>
   <body>
     <div id="container">
-      <div class="header">
-        <a href="/" class="logo"></a>
-      </div>
       <div class="columns">
-        <!--
-				<div class="column">
-					<div class="heading">
-						Breakfast
-						<div class="info">We use local and sustainable pork from Circle B Ranch in Seymour, MO.</div>
-					</div>
-					<div class="section">
-						<div class="item">
-							<span class="title-price">
-								<span class="title">2 Eggs, cooked your way</span>
-								<span class="separator"></span>
-								<span class="price">7.50</span>
-							</span>
-							<span class="info">2 eggs cooked to your preference and served with locally sourced bacon, sausage or griddled fajita veggies and fried potatoes or a yogurt parfait.</span>
-						</div>
-						<div class="item">
-							<span class="title-price">
-								<span class="title">3 Buttermilk Pancakes</span>
-								<span class="separator"></span>
-								<span class="price">7.00</span>
-							</span>
-              <span class="info">
-                <strong>The OG:</strong> served with real maple syrup and butter.<br/>
-                <strong>Very Berry:</strong> served with real whipped cream.
-              </span>
-							<div class="options">
-								<span class="title-price">
-									<span class="title">Single</span>
-									<span class="separator"></span>
-									<span class="price">3.00</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Chocolate Chips</span>
-									<span class="separator"></span>
-									<span class="price">+1.00</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Extra real maple syrup</span>
-									<span class="separator"></span>
-									<span class="price">+1.50</span>
-								</span>
-							</div>
-						</div>
-						<div class="item">
-							<span class="title-price">
-								<span class="title">Wheelhouse Breakfast Burrito <span class="lowercase">or</span> Bowl</span>
-								<span class="separator"></span>
-								<span class="price">7.50</span>
-							</span>
-							<span class="info">A full-sized breakfast meal, a 12 inch flour tortilla surrounds fresh-made lime-cilantro black beans, hand-cut fried potatoes, Circle B Ranch sausage and natural Monterey Jack cheese. Delicious with fresh guacamole or seasonal greens. Try it VEGAN (guac included).</span>
-							<div class="options">
-								<span class="title-price">
-									<span class="title">Guacamole</span>
-									<span class="separator"></span>
-									<span class="price">+1.50</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Sour Cream</span>
-									<span class="separator"></span>
-									<span class="price">+0.25</span>
-								</span>
-							</div>
-						</div>
-						<div class="item">
-							<span class="title-price">
-								<span class="title">Huevos Rancheros w/ Mojo Sauce <span class="info">(G/F)</span></span>
-								<span class="separator"></span>
-								<span class="price">8.00</span>
-							</span>
-							<span class="info">Our tangy, slightly spicy Mojo sauce tops two fried eggs on hand pressed fresh corn tortillas. Garnished with natural cotija cheese, pico de gallo and cilantro. Lime-cilantro black beans and Spanish rice accompany.</span>
-							<div class="options">
-								<span class="title-price">
-									<span class="title">Guacamole</span>
-									<span class="separator"></span>
-									<span class="price">+1.50</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Sour Cream</span>
-									<span class="separator"></span>
-									<span class="price">+0.25</span>
-								</span>
-							</div>
-						</div>
-
-						<div class="item">
-							<span class="title-price">
-								<span class="title">Sourdough Egg Sandwich</span>
-								<span class="separator"></span>
-								<span class="price">7.00</span>
-							</span>
-							<span class="info">Two fried eggs and Circle B Ranch bacon are sandwiched between a griddled sourdough bread with monterey jack cheese, chipotle aioli and seasonal greens.</span>
-						</div>
-						<div class="item">
-							<span class="title-price">
-								<span class="title">Avacado Toast</span>
-								<span class="separator"></span>
-								<span class="price">6.50</span>
-							</span>
-							<span class="info">House-made guacamole on two slices of grilled sourdough bread, a drizzle of olive oil, a squeeze of lime and fresh cracked pepper.</span>
-							<div class="options">
-								<span class="title-price">
-									<span class="title">Add two fried eggs</span>
-									<span class="separator"></span>
-									<span class="price">+2.00</span>
-								</span>
-							</div>
-						</div>
-						<div class="item">
-							<span class="title-price">
-								<span class="title">Toast and Jam</span>
-								<span class="separator"></span>
-								<span class="price">4.00</span>
-							</span>
-							<span class="info">2 slices of buttered sourdough bread with seasonal jam or jelly.</span>
-						</div>
-						<div class="item">
-							<span class="title-price">
-								<span class="title">Sides</span>
-							</span>
-							<div class="options">
-								<span class="title-price">
-									<span class="title">Fried potatoes</span>
-									<span class="separator"></span>
-									<span class="price">+2.00</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Two eggs</span>
-									<span class="separator"></span>
-									<span class="price">+3.00</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Toasted sourdough</span>
-									<span class="separator"></span>
-									<span class="price">+2.00</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Fruit cup</span>
-									<span class="separator"></span>
-									<span class="price">+2.50</span>
-								</span>
-								<span class="title-price">
-									<span class="title">Small yogurt parfait</span>
-									<span class="separator"></span>
-									<span class="price">+3.50</span>
-								</span>
-								<span class="title-price">
-									<span class="title">2 slices of local bacon</span>
-									<span class="separator"></span>
-									<span class="price">+3.00</span>
-								</span>
-								<span class="title-price">
-									<span class="title">2 sausage patties</span>
-									<span class="separator"></span>
-									<span class="price">+3.00</span>
-								</span>
-							</div>
-						</div>
-					</div>
-					<div class="section">
-						<span class="title-price">
-							<span class="price">St. George's Donuts available daily</span>
-						</span>
-					</div>
-					<div class="section">
-            <div class="heading">Breakfast Cocktails</div>
-						<div class="item">
-              <span class="title-price">
-                <span class="title">Grapefruit Mimosa</span>
-                <span class="separator"></span>
-                <span class="price">7.00</span>
-              </span>
-            </div>
-						<div class="item">
-              <span class="title-price">
-                <span class="title">Bloody Mary</span>
-                <span class="separator"></span>
-                <span class="price">8.00</span>
-              </span>
-            </div>
-						<div class="item">
-              <span class="title-price">
-                <span class="title">Bloody Maria</span>
-                <span class="separator"></span>
-                <span class="price">8.00</span>
-              </span>
-            </div>
-					</div>
-				</div>
-        -->
         <div class="column">
           <div class="section">
             <div class="heading">Lunch &amp; Dinner Menu</div>
@@ -284,36 +92,17 @@
                   Kimchi Falafel <span class="info">(G/F)</span>
                 </span>
                 <span class="separator"></span>
-                <span class="price">+1.00</span>
+                <span class="price">+2.50</span>
               </span>
-              <!-- <span class="title-price"> -->
-              <!--   <span class="title" -->
-              <!--     >Steak <span class="info">(G/F)</span> -->
-              <!--     <span class="info">korean style, marinated</span></span -->
-              <!--   > -->
-              <!--   <span class="separator"></span> -->
-              <!--   <span class="price">+1.00</span> -->
-              <!-- </span> -->
-              <!-- <span class="title-price"> -->
-              <!--   <span class="title">Shrimp</span> -->
-              <!--   <span class="separator"></span> -->
-              <!--   <span class="price">+1.00</span> -->
-              <!-- </span> -->
-              <!-- <span class="title-price"> -->
-              <!--   <span class="title">Local Pork <span class="info">(G/F)</span> <span class="info">smoked with a lime marmalade</span></span> -->
-              <!--   <span class="separator"></span> -->
-              <!--   <span class="price">+1.00</span> -->
-              <!-- </span> -->
-              <!-- <span class="title-price"> -->
-              <!--   <span class="title" -->
-              <!--     >Tilapia -->
-              <!--     <span class="smallcaps">or</span> -->
-              <!--     Flounder -->
-              <!--     <span class="info">tempura battered, fried</span></span -->
-              <!--   > -->
-              <!--   <span class="separator"></span> -->
-              <!--   <span class="price">+2.00</span> -->
-              <!-- </span> -->
+              <span class="title-price">
+                <span class="title">
+                  Shrimp <span class="info">(G/F)</span>
+                  <span class="smallcaps">or</span>
+                  Steak <span class="info">(G/F)</span>
+                </span>
+                <span class="separator"></span>
+                <span class="price">+3.00</span>
+              </span>
               <span class="step">
                 choose your sauce:
                 <span class="arrow">&#x21A7;</span>
@@ -351,120 +140,6 @@
               </span>
             </div>
           </div>
-          <!-- <div class="section"> -->
-          <!--   <span class="section-title"> -->
-          <!--     Sandwiches -->
-          <!--     <div class="info"> -->
-          <!--       Sandwiches come with choice of fries, chips and seasonal salsa, -->
-          <!--       or side salad with organic greens. -->
-          <!--     </div> -->
-          <!--   </span> -->
-          <!--   <div class="item"> -->
-          <!--   	<span class="title-price"> -->
-          <!--   		<span class="title">Pulled Pork</span> -->
-          <!--   		<span class="separator"></span> -->
-          <!--   		<span class="price">13.75</span> -->
-          <!--   	</span> -->
-          <!--   	<span class="info">Local pulled pork on local sourdough bread.</span> -->
-          <!--   </div> -->
-          <!--   <div class="item"> -->
-          <!--     <span class="title-price"> -->
-          <!--       <span class="title">Kimchi Falafel</span> -->
-          <!--       <span class="separator"></span> -->
-          <!--       <span class="price">11.25</span> -->
-          <!--     </span> -->
-          <!--     <span class="info" -->
-          <!--       >Fresh falafel made from whole garbanzo beans, brown lentils, -->
-          <!--       and spices inside of grilled sourdough bread, homemade grilled -->
-          <!--       kimchi, cilantro, lettuce, and chipotle aeoli.</span -->
-          <!--     > -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <div class="section">
-            <span class="section-title">Sides</span>
-            <div class="item">
-              <span class="title-price">
-                <span class="title">Falafel Appetizer</span>
-                <span class="separator"></span>
-                <span class="price">4.50</span>
-              </span>
-              <span class="info"
-                >Authentic falafel made with fresh herbs, whole garbanzo beans,
-                and brown lentils.</span
-              >
-            </div>
-            <div class="item">
-              <span class="title-price">
-                <span class="title">Chips</span>
-                <span class="separator"></span>
-                <span class="price">3.00</span>
-              </span>
-              <div class="options">
-                <!-- <span class="title-price"> -->
-                <!--   <span class="title">With Mango Pico De Gallo</span> -->
-                <!--   <span class="separator"></span> -->
-                <!--   <span class="price">+0.50</span> -->
-                <!-- </span> -->
-                <span class="title-price">
-                  <span class="title">Salsa</span>
-                </span>
-                <span class="title-price">
-                  <span class="title">Guacamole</span>
-                  <span class="separator"></span>
-                  <span class="price">+1.00</span>
-                </span>
-                <!-- <span class="title-price"> -->
-                <!--   <span class="title">With Queso</span> -->
-                <!--   <span class="separator"></span> -->
-                <!--   <span class="price">+1.50</span> -->
-                <!-- </span> -->
-                <span class="title-price">
-                  <span class="title">Bean Dip</span>
-                  <span class="separator"></span>
-                  <span class="price">+2.00</span>
-                </span>
-                <span class="title-price">
-                  <span class="title">Deluxe Bean Dip</span>
-                  <span class="separator"></span>
-                  <span class="price">+3.00</span>
-                </span>
-              </div>
-            </div>
-            <div class="item">
-              <span class="title-price">
-                <span class="title">Guacamole</span>
-                <span class="separator"></span>
-                <span class="price">1.50</span>
-              </span>
-            </div>
-            <div class="item">
-              <span class="title-price">
-                <span class="title">Sour Cream</span>
-                <span class="separator"></span>
-                <span class="price">0.25</span>
-              </span>
-            </div>
-            <span class="title-price">
-              <span class="title"></span>
-              <span class="spacer"></span>
-              <span class="price multi strong">&nbsp;&nbsp;SM</span>
-              <span class="spacer multi"></span>
-              <span class="price multi strong">&nbsp;&nbsp;LG</span>
-            </span>
-            <div class="item">
-              <span class="title-price">
-                <span class="title">Cauliflower Wings</span>
-                <span class="separator"></span>
-                <span class="price multi">&nbsp;6.00</span>
-                <span class="separator multi"></span>
-                <span class="price multi">&nbsp;8.00</span>
-              </span>
-              <span class="info">
-                Battered, fried, and tossed in your sauce of choice: Mango, Thai
-                Basil, Orange, or Peanut.</span
-              >
-            </div>
-          </div>
           <div class="section">
             <div class="section-title">
               Kids Menu
@@ -473,25 +148,18 @@
                 organic juice box.
               </div>
             </div>
-            <!-- <div class="item"> -->
-            <!--   <span class="title-price"> -->
-            <!--     <span class="title">Grilled Cheese</span> -->
-            <!--     <span class="separator"></span> -->
-            <!--     <span class="price">5.00</span> -->
-            <!--   </span> -->
-            <!-- </div> -->
             <div class="item">
               <span class="title-price">
                 <span class="title">Chicken Strips</span>
                 <span class="separator"></span>
-                <span class="price">5.00</span>
+                <span class="price">6.00</span>
               </span>
             </div>
             <div class="item">
               <span class="title-price">
                 <span class="title">Kids Quesadilla</span>
                 <span class="separator"></span>
-                <span class="price">5.00</span>
+                <span class="price">6.00</span>
               </span>
             </div>
           </div>
@@ -584,51 +252,32 @@
               >
             </div>
             <div class="options">
-              <span class="step">
-                choose your protein:
-                <span class="arrow">&#x21A7;</span>
-              </span>
               <span class="title-price">
                 <span class="title">Vegetable</span>
               </span>
               <span class="title-price">
                 <span class="title"
-                  >Tofu <span class="smallcaps">or</span> Grilled Chicken</span
+                  >Pork <span class="smallcaps">or</span> Tofu
+                  <span class="smallcaps">or</span> Grilled Chicken</span
                 >
                 <span class="separator"></span>
-                <span class="price">+1.00</span>
+                <span class="price">+2.50</span>
               </span>
-              <!-- <span class="title-price"> -->
-              <!--   <span class="title" -->
-              <!--     >Tofu -->
-              <!--     <span class="info" -->
-              <!--       >crispy and sauteed in housemade teriyaki</span -->
-              <!--     ></span -->
-              <!--   > -->
-              <!--   <span class="separator"></span> -->
-              <!--   <span class="price">+1.00</span> -->
-              <!-- </span> -->
-              <!-- <span class="title-price"> -->
-              <!--   <span class="title" -->
-              <!--     >Steak <span class="info">korean style, marinated</span></span -->
-              <!--   > -->
-              <!--   <span class="separator"></span> -->
-              <!--   <span class="price">+2.00</span> -->
-              <!-- </span> -->
               <span class="title-price">
                 <span class="title"
-                  >Shrimp <span class="smallcaps">or</span> Pork</span
+                  >Shrimp <span class="smallcaps">or</span> Steak</span
                 >
                 <span class="separator"></span>
-                <span class="price">+2.00</span>
+                <span class="price">+3.00</span>
               </span>
-              <!-- <span class="title-price"> -->
-              <!-- 	<span class="title">Local Pork <span class="info">smoked with a lime marmalade</span></span> -->
-              <!-- 	<span class="separator"></span> -->
-              <!-- 	<span class="price">+3.00</span> -->
-              <!-- </span> -->
             </div>
           </div>
+
+          <div class="section" style="margin-top: 10em">
+            <a href="/" class="logo"></a>
+          </div>
+        </div>
+        <div class="column">
           <div class="section">
             <span class="section-title">Specials</span>
             <div class="item">
@@ -638,19 +287,19 @@
                 <span class="price">10.95</span>
               </span>
               <span class="info"
-                >Served with chips, salsa, and choice of bean dip or cabbage
-                dip.</span
+                >Tilapia, Served with chips, salsa, and choice of bean dip or
+                cabbage dip.</span
               >
-              <div class="options">
-                <span class="title-price">
-                  <span class="title">Tilapia </span>
-                </span>
-                <span class="title-price">
-                  <span class="title">Flounder</span>
-                  <span class="separator"></span>
-                  <span class="price">+2.00</span>
-                </span>
-              </div>
+              <!-- <div class="options"> -->
+              <!--   <span class="title-price"> -->
+              <!--     <span class="title">Tilapia </span> -->
+              <!--   </span> -->
+              <!--   <span class="title-price"> -->
+              <!--     <span class="title">Flounder</span> -->
+              <!--     <span class="separator"></span> -->
+              <!--     <span class="price">+2.00</span> -->
+              <!--   </span> -->
+              <!-- </div> -->
             </div>
             <div class="item">
               <span class="title-price">
@@ -682,7 +331,7 @@
             </div>
             <div class="item">
               <span class="title-price">
-                <span class="title">Mango Chicken or Crispy Tofu</span>
+                <span class="title">Mango Chicken <span class="smallcaps">or</span> Crispy Tofu</span>
                 <span class="separator"></span>
                 <span class="price">13.00</span>
               </span>
@@ -704,262 +353,124 @@
                 vegan or add any protein option to them.
               </span>
               <div class="options">
-                <span class="title-price">
-                  <span class="title">With Chicken</span>
-                  <span class="separator"></span>
-                  <span class="price">+1.00</span>
-                </span>
-                <span class="title-price">
-                  <span class="title">With Pork</span>
-                  <span class="separator"></span>
-                  <span class="price">+2.00</span>
-                </span>
+              <span class="title-price">
+                <span class="title"
+                  >Pork <span class="smallcaps">or</span> Tofu
+                  <span class="smallcaps">or</span> Grilled Chicken</span
+                >
+                <span class="separator"></span>
+                <span class="price">+2.50</span>
+              </span>
+              <span class="title-price">
+                <span class="title"
+                  >Shrimp <span class="smallcaps">or</span> Steak</span
+                >
+                <span class="separator"></span>
+                <span class="price">+3.00</span>
+              </span>
               </div>
             </div>
             <div class="item">
               <span class="title-price">
                 <span class="title">Ginger Sesame Salad</span>
                 <span class="separator"></span>
-                <span class="price">12.00</span>
+                <span class="price">10.95</span>
               </span>
               <span class="info">Side of steamed rice.</span>
               <div class="options">
-                <span class="title-price">
-                  <span class="title"
-                    >With Tofu <span class="smallcaps">or</span> Chicken
-                  </span>
-                </span>
-                <span class="title-price">
-                  <span class="title">Pork</span>
-                  <span class="separator"></span>
-                  <span class="price">+1.00</span>
-                </span>
+              <span class="title-price">
+                <span class="title"
+                  >Pork <span class="smallcaps">or</span> Tofu
+                  <span class="smallcaps">or</span> Grilled Chicken</span
+                >
+                <span class="separator"></span>
+                <span class="price">+2.50</span>
+              </span>
+              <span class="title-price">
+                <span class="title"
+                  >Shrimp <span class="smallcaps">or</span> Steak</span
+                >
+                <span class="separator"></span>
+                <span class="price">+3.00</span>
+              </span>
               </div>
             </div>
           </div>
-          <!-- <div class="section"> -->
-          <!--   <span class="section-title">Salads</span> -->
-          <!--   <div class="item"> -->
-          <!--     <span class="title-price"> -->
-          <!--       <span class="title">Vietnamese Bun Vermicelli</span> -->
-          <!--       <span class="separator"></span> -->
-          <!--       <span class="price">12.00</span> -->
-          <!--     </span> -->
-          <!--     <span class="info" -->
-          <!--       >Our version of a Vietnamese salad topped with bean sprouts, -->
-          <!--       cucumber, radish, carrots, homemade sweet-vinegar-fish sauce or -->
-          <!--       vegan peanut vinaigrette dressing, cilantro, garden-grown mint, -->
-          <!--       hoisin sauce, and crushed peanuts.</span -->
-          <!--     > -->
-          <!--     <div class="options"> -->
-          <!--       <span class="title-price"> -->
-          <!--         <span class="title">Tofu</span> -->
-          <!--       </span> -->
-          <!--       <span class="title-price"> -->
-          <!--         <span class="title">Grilled chicken</span> -->
-          <!--         <span class="separator"></span> -->
-          <!--         <span class="price">+0.75</span> -->
-          <!--       </span> -->
-          <!--       <span class="title-price"> -->
-          <!--         <span class="title">Steak</span> -->
-          <!--         <span class="separator"></span> -->
-          <!--         <span class="price">+1.75</span> -->
-          <!--       </span> -->
-          <!--       <!-1- <span class="title-price"> -1-> -->
-          <!--       <!-1-   <span class="title">Local Pork</span> -1-> -->
-          <!--       <!-1-   <span class="separator"></span> -1-> -->
-          <!--       <!-1-   <span class="price">+2.50</span> -1-> -->
-          <!--       <!-1- </span> -1-> -->
-          <!--     </div> -->
-          <!--   </div> -->
-          <!--   <div class="item"> -->
-          <!--     <span class="title-price"> -->
-          <!--       <span class="title">Mexican Grilled Chicken Salad</span> -->
-          <!--       <span class="separator"></span> -->
-          <!--       <span class="price">12.00</span> -->
-          <!--     </span> -->
-          <!--     <span class="info" -->
-          <!--       >Organic greens, grilled chicken, pico de gallo , guacamole, -->
-          <!--       cabbage, and cotija cheese, with avocado and blackened tomatillo -->
-          <!--       dressing.</span -->
-          <!--     > -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <div class="section spacer"></div>
+          <div class="section">
+            <span class="section-title">Sides</span>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Falafel Appetizer</span>
+                <span class="separator"></span>
+                <span class="price">5.50</span>
+              </span>
+              <span class="info"
+                >Authentic falafel made with fresh herbs, whole garbanzo beans,
+                and brown lentils.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Chips</span>
+                <span class="separator"></span>
+                <span class="price">3.00</span>
+              </span>
+              <div class="options">
+                <span class="title-price">
+                  <span class="title">Salsa</span>
+                </span>
+                <span class="title-price">
+                  <span class="title">
+                    Bean Dip
+                    <span class="smallcaps">or</span>
+                    Guacamole
+                  </span>
+                  <span class="separator"></span>
+                  <span class="price">+2.00</span>
+                </span>
+                <span class="title-price">
+                  <span class="title">Deluxe Bean Dip</span>
+                  <span class="separator"></span>
+                  <span class="price">+3.00</span>
+                </span>
+              </div>
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Guacamole</span>
+                <span class="separator"></span>
+                <span class="price">1.50</span>
+              </span>
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Sour Cream</span>
+                <span class="separator"></span>
+                <span class="price">0.25</span>
+              </span>
+            </div>
+            <span class="title-price">
+              <span class="title"></span>
+              <span class="spacer"></span>
+              <span class="price multi strong">&nbsp;&nbsp;SM</span>
+              <span class="spacer multi"></span>
+              <span class="price multi strong">&nbsp;&nbsp;LG</span>
+            </span>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Cauliflower Wings</span>
+                <span class="separator"></span>
+                <span class="price multi">&nbsp;6.00</span>
+                <span class="separator multi"></span>
+                <span class="price multi">&nbsp;8.00</span>
+              </span>
+              <span class="info">
+                Battered, fried, and tossed in your sauce of choice: Mango, Thai
+                Basil, Orange, or Peanut.</span
+              >
+            </div>
+          </div>
         </div>
-        <!-- <div class="column"> -->
-        <!-- <div class="section"> -->
-        <!--   <div class="heading"> -->
-        <!--     Coffee -->
-        <!--     <div class="info"> -->
-        <!--       Coffee beans from Keen Bean Coffee in Mt. Vernon MO. -->
-        <!--     </div> -->
-        <!--   </div> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Espresso</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price">3.00</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Cappuccino</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price">4.50</span> -->
-        <!--   </span> -->
-        <!-- </div> -->
-        <!-- <div class="section"> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title"></span> -->
-        <!--     <span class="spacer"></span> -->
-        <!--     <span class="price multi strong">12oz</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi strong">16oz</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi strong">20oz</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Americano</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">3.00</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">3.75</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi"></span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">To-go Coffee</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">2.00</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">2.50</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi"></span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Hot Latte</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">4.00</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">4.75</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi"></span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Iced Latte</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">4.75</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">5.50</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title" -->
-        <!--       >Hot Mocha <span class="lowercase">or</span> Chai</span -->
-        <!--     > -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">4.75</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">5.00</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi"></span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title" -->
-        <!--       >Iced Mocha <span class="lowercase">or</span> Chai</span -->
-        <!--     > -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">5.00</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">5.75</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Hot Chocolate</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">3.00</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">3.75</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi"></span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Cold Brew</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">3.75</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">4.50</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Hot Tea</span> -->
-        <!--     <span class="separator"></span> -->
-        <!--     <span class="price multi">2.00</span> -->
-        <!--     <span class="separator multi"></span> -->
-        <!--     <span class="price multi">2.50</span> -->
-        <!--     <span class="spacer multi"></span> -->
-        <!--     <span class="price multi"></span> -->
-        <!--   </span> -->
-        <!--   <div class="options"> -->
-        <!--     <span class="step"> -->
-        <!--       add for additional 0.75: -->
-        <!--     </span> -->
-        <!--     <span class="title-price"> -->
-        <!--       <span class="title">Extra Shot</span> -->
-        <!--     </span> -->
-        <!--     <span class="title-price"> -->
-        <!--       <span class="title">Soy Milk, Organic Milk, Almond Milk</span> -->
-        <!--     </span> -->
-        <!--     <span class="title-price"> -->
-        <!--       <span class="title" -->
-        <!--         >Flavor shot: Caramel, Vanilla, Mocha, White&nbsp;Mocha, -->
-        <!--         Sugar&nbsp;Free&nbsp;Vanilla, Sugar&nbsp;Free&nbsp;Mocha, -->
-        <!--         Hazelnut</span -->
-        <!--       > -->
-        <!--     </span> -->
-        <!--   </div> -->
-        <!-- </div> -->
-        <!-- <div class="section"> -->
-        <!--   <div class="heading">Drinks</div> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">local kombucha on tap</span> -->
-        <!--   </span> -->
-        <!--   <div class="options"> -->
-        <!--     <span class="title-price"> -->
-        <!--       <span class="title">Glass</span> -->
-        <!--       <span class="separator"></span> -->
-        <!--       <span class="price">4.50</span> -->
-        <!--     </span> -->
-        <!--     <span class="title-price"> -->
-        <!--       <span class="title">Growler</span> -->
-        <!--       <span class="separator"></span> -->
-        <!--       <span class="price">13.50</span> -->
-        <!--     </span> -->
-        <!--     <div class="options"> -->
-        <!--       <span class="title-price"> -->
-        <!--         <span class="title">Refill</span> -->
-        <!--         <span class="separator"></span> -->
-        <!--         <span class="price">10.00</span> -->
-        <!--       </span> -->
-        <!--     </div> -->
-        <!--   </div> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title" -->
-        <!--       >Selection of Local Beers<br />in Bottle or Draft</span -->
-        <!--     > -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Wine</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Seasonal Cocktails</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="title">Coke Fountain Drinks</span> -->
-        <!--   </span> -->
-        <!--   <span class="title-price"> -->
-        <!--     <span class="price">+ full bar</span> -->
-        <!--   </span> -->
-        <!-- </div> -->
-        <!-- <div class="section"> -->
-        <!--   <span class="section-title">Local Desserts Available</span> -->
-        <!-- </div> -->
-        <!-- </div> -->
       </div>
     </div>
   </body>

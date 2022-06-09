@@ -43,7 +43,7 @@ body {
 #container {
   display: flex;
   flex-direction: column;
-  height: calc(100vw * 0.5625);
+  aspect-ratio: 16/9;
   overflow: hidden;
 }
 @media (max-width: 768px) {
@@ -225,6 +225,13 @@ body {
 }
 .title-price .spacer.multi {
   flex: 0 0 1em;
+}
+
+.title-price.wide {
+  flex-wrap: wrap;
+}
+.title-price.wide .title {
+  width: 100%;
 }
 
 .step {

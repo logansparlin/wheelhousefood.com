@@ -90,7 +90,7 @@ body {
   display: flex;
   flex: 1 1 0%;
   flex-direction: column;
-  padding: 2em;
+  padding: 2.5em 2em 2em;
   position: relative;
 }
 .column::after {
@@ -133,7 +133,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   position: relative;
 }
 .section:last-child {
@@ -145,7 +145,11 @@ body {
 
 .section-title {
   font-size: 3em;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
+}
+.section-title.center {
+  text-align: center;
 }
 .section-title .info {
   font-size: 0.4em;
@@ -163,6 +167,21 @@ body {
 }
 .options .options .title-price {
   font-size: 1.1em;
+}
+.options .options-panes {
+  display: flex;
+  gap: 1em;
+}
+.options .options-pane {
+  flex: 1 1 50%;
+}
+.options-panes .title-price {
+  font-size: 1.5em;
+}
+.options-panes .title-price,
+.options-panes .title-price .price {
+  display: block;
+  text-align: center;
 }
 
 .info {
@@ -191,6 +210,9 @@ body {
   justify-content: space-between;
   margin: 0 0 0.2em;
   width: 100%;
+}
+.title-price.center {
+  justify-content: center;
 }
 .title-price .title {
   text-transform: uppercase;

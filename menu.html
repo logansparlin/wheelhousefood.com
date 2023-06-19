@@ -1,6 +1,535 @@
 ---
-layout: page
 title: Menu
 permalink: /menu/
 index: 2
 ---
+
+
+<html>
+  <head>
+    <title>TV Menu</title>
+    <link rel="stylesheet" href="/media/menu/menu.css" />
+    <style>
+     . body {
+        font-size: 1.05vw;
+      }
+      .item {
+        margin: 0 0 0.25em;
+      }
+      .title-price {
+        margin: 0 0 0.1em;
+      }
+      .section {
+        margin-bottom: 0.5em;
+      }
+      .section-title {
+        line-height: 1;
+      }
+      .item > .info {
+        display: none;
+      }
+      .step .arrow {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="columns">
+        <div class="column">
+          <div class="section">
+            <div class="section-title center">Build your own</div>
+            <!-- <div class="heading">Lunch &amp; Dinner Menu</div> -->
+            <div class="item">
+              <span class="title-price center">
+                <span class="title">Burrito</span>
+              </span>
+            </div>
+            <div class="item">
+              <span class="title-price center">
+                <span class="title">Nachos</span>
+              </span>
+            </div>
+            <div class="item">
+              <span class="title-price center">
+                <span class="title">Burrito bowl</span>
+              </span>
+            </div>
+            <div class="item">
+              <span class="title-price center">
+                <span class="title">Nacho fries</span>
+              </span>
+            </div>
+
+            <div class="options">
+              <span class="step">
+                choose your protein:
+                <span class="arrow">&#x21A7;</span>
+              </span>
+
+              <div class="options-panes">
+                <div class="options-pane">
+                  <span class="title-price">
+                    <span class="title"
+                      >Vegetable <span class="info"></span></span
+                    >
+                  </span>
+                  <span class="title-price">
+                    <span class="title"
+                      >Grilled Tofu <span class="info"></span>
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title">
+                      Pork <span class="info"></span>
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title"
+                      >Chicken <span class="info"></span></span
+                    >
+                  </span>
+                  <span class="title-price">
+                    <span class="price">13.25</span>
+                  </span>
+                </div>
+
+                <div class="options-pane">
+                  <span class="title-price">
+                    <span class="title">
+                      Kimchi Falafel <span class="info"></span>
+                    </span>
+                  </span>
+
+                  <span class="title-price">
+                    <span class="title">
+                      Shrimp <span class="info"></span>
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title">
+                      Steak <span class="info"></span>
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title">
+                      Crispy Tofu <span class="info"></span>
+                      <!-- <span class="info">crispy and sauteed in housemade teriyaki</span> -->
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="price">13.75</span>
+                  </span>
+                </div>
+              </div>
+
+              <span class="step">
+                choose your sauce:
+                <span class="arrow">&#x21A7;</span>
+              </span>
+              <span class="title-price">
+                <span class="title"
+                  >Mojo Sauce
+                  <span class="info">roasted tomatillo salsa</span></span
+                >
+              </span>
+              <span class="title-price">
+                <span class="title"
+                  >Peanut Sauce
+                  <span class="info"
+                    >sweet &amp; savory Thai peanut sauce</span
+                  ></span
+                >
+              </span>
+              <span class="step">
+                extras:
+                <span class="arrow">&#x21A7;</span>
+              </span>
+              <span class="title-price">
+                <span class="title">Guacamole</span>
+                <span class="separator"></span>
+                <span class="price">+1.50</span>
+              </span>
+              <span class="title-price">
+                <span class="title">Sour Cream</span>
+                <span class="separator"></span>
+                <span class="price">+0.25</span>
+              </span>
+              <span class="title-price">
+                <span class="title">Thai Chile Sauce: 1-5 &#9733;</span>
+              </span>
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-title center">
+              Kids Menu
+              <div class="info">
+                Served with french fries, chips and salsa, or apple sauce and an
+                organic juice box.
+              </div>
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Chicken Strips</span>
+                <span class="separator"></span>
+                <span class="price">6.00</span>
+              </span>
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Kids Quesadilla</span>
+                <span class="separator"></span>
+                <span class="price">6.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="section">
+            <!-- <div class="heading"> -->
+            <!-- &nbsp; -->
+            <!-- </div> -->
+            <span class="section-title center">Wok Dishes</span>
+            <div class="options">
+              <span class="step">
+                choose your protein:
+                <span class="arrow">&#x21A7;</span>
+              </span>
+              <span class="title-price">
+                <span class="title"
+                >Grilled Chicken,<br/>Grilled Tofu
+                  <span class="smallcaps">or</span> Pork</span
+                >
+                <span class="separator"></span>
+                <span class="price">+2.70</span>
+              </span>
+              <span class="title-price">
+                <span class="title"
+                  >Shrimp, Steak <span class="smallcaps">or</span> Crispy
+                  Tofu</span
+                >
+                <span class="separator"></span>
+                <span class="price">+3.25</span>
+              </span>
+            </div>
+            <span class="title-price">
+              <span class="title"></span>
+              <span class="spacer"></span>
+              <span class="price multi strong">SINGLE</span>
+              <span class="spacer multi"></span>
+              <span class="price multi strong">LARGE</span>
+            </span>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Drunken Noodle <span class="info"></span
+                ></span>
+                <span class="separator"></span>
+                <span class="price multi">9.40</span>
+                <span class="separator multi"></span>
+                <span class="price multi">11.40</span>
+              </span>
+              <span class="info"
+                >Made with thin and wide rice noodles, sweet and savory
+                soy-based sauce. comes with tender broccoli florets, sliced
+                carrots, and shredded cabbage. Topped with lime wedges and fresh
+                Thai basil.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Wheelhouse Pad Thai <span class="info"></span
+                ></span>
+                <span class="separator"></span>
+                <span class="price multi">9.40</span>
+                <span class="separator multi"></span>
+                <span class="price multi">11.40</span>
+              </span>
+              <span class="info"
+                >Thin, narrow rice noodles fried in a savory, tamarind-based
+                sauce. Cooked with mushrooms, cabbage, broccoli florets, onion,
+                and carrots. Topped with mung bean sprouts, crushed peanuts,
+                cilantro, green onions, and lime wedges.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Pineapple Fried Rice <span class="info"></span
+                ></span>
+                <span class="separator"></span>
+                <span class="price multi">9.40</span>
+                <span class="separator multi"></span>
+                <span class="price multi">11.40</span>
+              </span>
+              <span class="info"
+                >Jasmine rice steamed with lemongrass, turmeric, coconut milk,
+                and lime leaves. Fried with broccoli, carrots, cabbage, fresh
+                pineapple, mushrooms, Vietnamese soy sauce, and a
+                ginger-habanero coconut oil.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Garlic Lo Mein <span class="info"></span
+                ></span>
+                <span class="separator"></span>
+                <span class="price multi">10.40</span>
+                <span class="separator multi"></span>
+                <span class="price multi">12.40</span>
+              </span>
+              <span class="info"
+                >Lo mein noodles cooked in a savory garlic mushroom sauce.
+                Topped with a chipotle, aioli and fried shallots.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Kimchi Fried Rice <span class="info"></span
+                ></span>
+                <span class="separator"></span>
+                <span class="price multi">10.40</span>
+                <span class="separator multi"></span>
+                <span class="price multi">12.40</span>
+              </span>
+              <span class="info"
+                >Wok-fired jasmine rice with house-made kimchi and fresh
+                veggies.</span
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title center">Tacos</div>
+            <div class="options">
+              <div class="options-panes">
+                <div class="options-pane">
+                  <span class="title-price">
+                    <span class="title"
+                      >Vegetable <span class="info"></span
+                    ></span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title"
+                      >Grilled Tofu <span class="info"></span>
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title"> Pork <span class="info"></span> </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title"
+                      >Chicken <span class="info"></span
+                    ></span>
+                  </span>
+                  <span class="title-price">
+                    <span class="price">14.25</span>
+                  </span>
+                </div>
+
+                <div class="options-pane">
+                  <span class="title-price">
+                    <span class="title">
+                      Kimchi Falafel <span class="info"></span>
+                    </span>
+                  </span>
+
+                  <span class="title-price">
+                    <span class="title"> Fish <span class="info"></span> </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title">
+                      Steak <span class="info"></span>
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="title">
+                      Crispy Tofu <span class="info"></span>
+                      <!-- <span class="info">crispy and sauteed in housemade teriyaki</span> -->
+                    </span>
+                  </span>
+                  <span class="title-price">
+                    <span class="price">14.75</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section" style="margin-top: 5em">
+            <a href="/" class="logo"></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="section">
+            <span class="section-title center">Specials</span>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Thai Basil Chicken <span class="smallcaps">or</span> Crispy
+                  Tofu</span
+                >
+              </span>
+              <span class="info"
+                >Side of steamed rice and a fried egg OR salad with peanut
+                vinaigrette.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Orange Chicken <span class="smallcaps">or</span> Crispy
+                  Tofu</span
+                >
+              </span>
+              <span class="info"
+                >Side of steamed rice and salad with peanut vinaigrette.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Mango Chicken <span class="smallcaps">or</span> Crispy
+                  Tofu</span
+                >
+              </span>
+              <span class="info"
+                >Side of steamed rice and salad with peanut vinaigrette.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price wide">
+                <span class="title"
+                  >Peanut Satay Chicken <span class="smallcaps">or</span> Crispy
+                  Tofu</span
+                >
+                <span class="separator"></span>
+                <span class="price">14.00</span>
+              </span>
+              <span class="info"
+                >Side of steamed rice and salad with ginger dressing.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Kimchi Fries</span>
+                <span class="separator"></span>
+                <span class="price multi">8.25</span>
+                <span class="separator multi"></span>
+                <span class="price multi">11.85</span>
+              </span>
+              <span class="info">
+                Stir fried french fries with house made kimchi, jack cheese,
+                chipotle aioli, cotija cheese, and cilantro. You can make these
+                vegan or add any protein option to them.
+              </span>
+              <div class="options">
+                <span class="title-price">
+                  <span class="title"
+                    >Pork, Tofu <span class="smallcaps">or</span> Grilled
+                    Chicken</span
+                  >
+                  <span class="separator"></span>
+                  <span class="price">+2.70</span>
+                </span>
+                <span class="title-price">
+                  <span class="title"
+                    >Shrimp, Steak <span class="smallcaps">or</span> Crispy
+                    Tofu</span
+                  >
+                  <span class="separator"></span>
+                  <span class="price">+3.25</span>
+                </span>
+              </div>
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Ginger Sesame Salad</span>
+                <span class="separator"></span>
+                <span class="price">11.85</span>
+              </span>
+              <span class="info">Side of steamed rice.</span>
+              <div class="options">
+                <span class="title-price">
+                  <span class="title"
+                    >Pork, Tofu <span class="smallcaps">or</span> Grilled
+                    Chicken</span
+                  >
+                  <span class="separator"></span>
+                  <span class="price">+2.70</span>
+                </span>
+                <span class="title-price">
+                  <span class="title"
+                    >Shrimp, Steak <span class="smallcaps">or</span> Crispy
+                    Tofu</span
+                  >
+                  <span class="separator"></span>
+                  <span class="price">+3.25</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <span class="section-title center">Sides</span>
+            <div class="item" style="margin-bottom: 0">
+              <span class="title-price">
+                <span class="title">Falafel</span>
+                <span class="separator"></span>
+                <span class="price">6.50</span>
+              </span>
+              <span class="info" style="margin-bottom: 0"
+                >Authentic falafel made with fresh herbs, whole garbanzo beans,
+                and fresh garlc.</span
+              >
+            </div>
+            <span class="title-price">
+              <span class="title"></span>
+              <span class="spacer"></span>
+              <span class="price multi strong">&nbsp;&nbsp;SM</span>
+              <span class="spacer multi"></span>
+              <span class="price multi strong">&nbsp;&nbsp;LG</span>
+            </span>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Cauliflower Wings</span>
+                <span class="separator"></span>
+                <span class="price multi">8.00</span>
+                <span class="separator multi"></span>
+                <span class="price multi">10.00</span>
+              </span>
+              <span class="info">
+                Battered, fried, and tossed in your sauce of choice: Mango, Thai
+                Basil, Orange, or Peanut.</span
+              >
+            </div>
+            <div class="item">
+              <span class="title-price">
+                <span class="title">Chips and salsa</span>
+                <span class="separator"></span>
+                <span class="price">3.50</span>
+              </span>
+              <span class="title-price">
+                <span class="title">Chips and bean dip</span>
+                <span class="separator"></span>
+                <span class="price">6.00</span>
+              </span>
+              <span class="title-price">
+                <span class="title">Chips and deluxe bean dip</span>
+                <span class="separator"></span>
+                <span class="price">7.00</span>
+              </span>
+              <span class="title-price">
+                <span class="title">Chips and guacamole</span>
+                <span class="separator"></span>
+                <span class="price">6.00</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
